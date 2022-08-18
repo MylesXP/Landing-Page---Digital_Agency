@@ -1,0 +1,38 @@
+/* Media Queries */
+@media screen and (max-width: 320px){
+  #hero_emailform {
+    right: 0 !important;
+    margin: 0 auto;
+    width: 280px !important;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    /*Test for dots*/
+    /* opacity: 50%; */
+  }
+}
+
+
+
+/* End Media Queries */
+
+/* Selects SVG inside svg continer allowing for semi responsive svgs - WORKS */
+.svg-container svg {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#hero_emailform {
+  background-color: white;
+  height: 500px;
+  width: 300px;
+  position: absolute;
+  float: right;
+  right: 30px;
+  border-radius: 23px;
+  -webkit-box-shadow: 0px 0px 17px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 17px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 17px -3px rgba(0, 0, 0, 0.75);
+  max-width: 100%;
+  max-height: 100%;
+}
