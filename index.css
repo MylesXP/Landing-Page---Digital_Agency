@@ -244,12 +244,21 @@
 
   .nav-link {
     font-size: 18px;
-    background-color: rgba(0, 0, 0, .7);
+    background-color: white;
+    color: #00C9FF;
+    /* background-color: rgba(0, 0, 0, .7); */
   }
 
   .nav-link:hover {
-    background-color: rgba(0, 0, 0, .7);
+    /* background-color: rgba(0, 0, 0, .7); */
+    text-decoration: underline !important;
+    text-decoration-color: #00C9FF !important;
     border-radius: 0;
+  }
+
+  .nav-link:focus {
+    text-decoration: underline !important;
+    text-decoration-color: #00C9FF !important;
   }
 
   
