@@ -75,6 +75,7 @@
 .nav-link{
   color: white;
   font-size: 25px;
+  background-color: rgba(0, 0, 0, .7);
 }
 
 .nav-link:hover{
@@ -238,7 +239,7 @@
 
   .nav-link {
     font-size: 18px;
-    background-color: rgba(0, 0, 0, .7);
+    
     padding-left: 10px !important;
   }
 
