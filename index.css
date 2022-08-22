@@ -7,9 +7,55 @@
   font-family: DINAlternate-Bold !important;
 }
 
+.navbar-brand {
+  color: white;
+  font-size: 35px !important;
+}
+
+.navbar-brand:hover {
+  color: white;
+}
+
+.nav-link{
+  color: white;
+  font-size: 25px;
+}
+
+.nav-link:hover{
+  color: #00C9FF;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+  color: white;
+  border: 2px solid white !important;
+}
+
+.navbar-toggler {
+  border-color: white;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.navbar-toggler:hover {
+  border-color: white;
+}
+
+.navbar-toggler {
+  border-color: white;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
 .jumbotron{
   background-image: linear-gradient(180deg, #00C9FF 0%, #00B1FF 50%, #0099FF 100%); 
-  height: 900px; 
+  height: 788px; 
   position: relative; 
   overflow: hidden; 
   z-index: 1; 
@@ -17,21 +63,23 @@
   max-height: 100%; 
   margin-bottom: 0 !important; 
   border-radius: 0 !important;
-  padding: 0;
+  padding: 0 !important;
 }
 
 #jumbo_title{
   color: #FFFFFF;
   text-align: left;
-  /* line-height: 50px; */
   padding-left: 70px;
-  /* margin: 0; */
   color: white; 
   font-family: Arial, Helvetica, sans-serif; 
   font-size: 40px; 
   z-index: 1;
+  /*  */
+  margin-top: 100px;
   /* display: inline-block; */
 }
+
+
 
 /* Selects SVG inside svg continer allowing for semi responsive svgs - WORKS */
 /* .svg-container svg {
@@ -43,7 +91,7 @@
   background-color: white;
   display: block;
   height: 500px;
-  width: 300px;
+  width: 340px;
   float: right;
   right: 30px;
   border-radius: 23px;
@@ -52,7 +100,7 @@
   box-shadow: 0px 0px 17px -3px rgba(0, 0, 0, 0.75);
   max-width: 100%;
   max-height: 100%;
-  margin-top: 85px;
+  margin-top: 30px;
   margin-right: 60px;
   z-index: 9999;
 }
@@ -91,7 +139,7 @@
     letter-spacing: 0px;
     text-align: center;
     padding: 0;
-    margin: 0;
+    /* margin: 0; */
   }
 
   
