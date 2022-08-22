@@ -65,6 +65,7 @@
 .navbar-brand {
   color: white;
   font-size: 35px !important;
+  letter-spacing: .8px;
 }
 
 .navbar-brand:hover {
@@ -168,7 +169,7 @@
 
 #jumbo_emailform {
   background-color: white;
-  display: block;
+  /* display: block; */
   height: 500px;
   width: 340px;
   float: right;
@@ -179,7 +180,7 @@
   box-shadow: 0px 0px 17px -3px rgba(0, 0, 0, 0.75);
   max-width: 100%;
   max-height: 100%;
-  margin-top: 30px;
+  /* margin-top: -40px; */
   margin-right: 60px;
   z-index: 9999;
 }
@@ -190,8 +191,15 @@
 
 /* Media Queries */
 
-/* Mobile S - Mobile M */
-@media only screen and (max-width: 375px){
+/* < Mobile S */
+/* @media only screen and (max-width: 320px){
+  #jumbo_emailform {
+    width: 100px;
+  }
+} */
+
+/* Mobile S - Mobile M */ 
+@media only screen and /*(min-width: 320px) and */ (max-width: 375px){
   #jumbo_emailform {
     right: 0;
     position: absolute;
