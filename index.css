@@ -76,6 +76,7 @@
   color: white;
   font-size: 25px;
   background-color: rgba(0, 0, 0, .7);
+  padding-left: 10px !important;
 }
 
 .nav-link:hover{
@@ -102,6 +103,11 @@
 
 .collapsed{
   border: 2px solid white !important;
+}
+
+#nav-link__lastItem{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 /* .navbar-toggler.show{
@@ -239,19 +245,14 @@
 
   .nav-link {
     font-size: 18px;
-    
-    padding-left: 10px !important;
   }
 
-  .nav-link:hover {
+  /* .nav-link:hover {
     background-color: rgba(0, 0, 0, .7);
     border-radius: 0;
-  }
+  } */
 
-  #nav-link__lastItem{
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-  }
+  
 }
 
 
