@@ -221,7 +221,7 @@
 
   #phone_image{
     left: 50%;
-    top: 36%;
+    top: 37%;
     transform: translate(-50%, -50%);
     position: absolute;
     width: 270px;
@@ -268,15 +268,16 @@
 
 
 /* Mobile S - Mobile M */ 
-@media only screen and (min-width: 320px) and (max-width: 375px){
+@media only screen and (min-width: 320px){
   #jumbo_emailform {
     right: 0;
     position: absolute;
     /*May change when adding child elements */
     width: 280px;
+    height: 400px;
     /*May change when adding child elements */
     left: 50%;
-    top: 55%;
+    top: 78%;
     transform: translate(-50%, -50%);
     margin-right: 0;
     margin-top: 0;
@@ -285,8 +286,18 @@
     /* opacity: 50%; */
   }
 
+  #phone_image{
+    left: 50%;
+    top: 36%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 270px;
+    height: 330px;
+    top: 39%;
+  }
+
   .jumbotron {
-    height: 850px;
+    height: 1100px;
   }
 
   #jumbo_title {
@@ -325,6 +336,22 @@
   }
 
   
+}
+
+/* Mobile L */ 
+@media only screen and (min-width: 425px){
+  .navbar-brand {
+    font-size: 25px !important;
+  }
+
+  #jumbo_title{
+    margin-top: 75px;
+    font-size: 32px !important;
+  }
+
+  #jumbo_emailform{
+    width: 350px;
+  }
 }
 
 
