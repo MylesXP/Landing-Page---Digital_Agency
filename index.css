@@ -198,14 +198,77 @@
 /* Media Queries */
 
 /* < Mobile S */
-/* @media only screen and (max-width: 320px){
-  #jumbo_emailform {
-    width: 100px;
+@media only screen and (max-width: 320px){
+
+  .nav-link {
+    font-size: 18px;
+    background-color: white;
+    color: #00C9FF;
+    /* background-color: rgba(0, 0, 0, .7); */
   }
-} */
+
+  .nav-link:hover {
+    /* background-color: rgba(0, 0, 0, .7); */
+    text-decoration: underline !important;
+    text-decoration-color: #00C9FF !important;
+    border-radius: 0;
+  }
+
+  .nav-link:focus {
+    text-decoration: underline !important;
+    text-decoration-color: #00C9FF !important;
+  }
+
+  #phone_image{
+    left: 50%;
+    top: 36%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 270px;
+    height: 330px;
+  }
+
+  #jumbo_emailform {
+    right: 0;
+    position: absolute;
+    /*May change when adding child elements */
+    width: 250px;
+    height: 380px;
+    /*May change when adding child elements */
+    left: 50%;
+    top: 72%;
+    transform: translate(-50%, -50%);
+    margin-right: 0;
+    margin-top: 0;
+    bottom: 0;
+    /*Test for dots*/
+    /* opacity: 50%; */
+  }
+
+  .navbar-brand {
+    font-size: 20px !important;
+  }
+
+  #jumbo_title {
+    color: rgb(255,255,255);
+    font-size: 28px;
+    /* line-height: 40px; */
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: center;
+    padding: 0;
+    margin-top: 65px;
+    /* margin: 0; */
+  }
+
+  .jumbotron{
+    height: 1100px;
+  }
+}
+
 
 /* Mobile S - Mobile M */ 
-@media only screen and /*(min-width: 320px) and */ (max-width: 375px){
+@media only screen and (min-width: 320px) and (max-width: 375px){
   #jumbo_emailform {
     right: 0;
     position: absolute;
