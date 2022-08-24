@@ -308,7 +308,7 @@
     letter-spacing: 0px;
     text-align: center;
     padding: 0;
-    margin-top: 65px;
+    margin-top: 75px;
     /* margin: 0; */
   }
 
@@ -340,9 +340,6 @@
 
 /* Mobile L */ 
 @media only screen and (min-width: 425px){
-  /* .navbar-brand {
-    font-size: 25px !important;
-  } */
 
   #jumbo_title{
     margin-top: 75px;
@@ -351,6 +348,57 @@
 }
 
 
+/* Tablet */
+@media only screen and (min-width: 768px){
+  #jumbo_emailform {
+    z-index: 3;
+    margin-top: 65px;
+    top: 0;
+  }
+
+  .navbar-brand{
+    font-size: 25px !important;
+  }
+  
+
+  #phone_image{
+    transform: unset;
+    left: unset;
+    margin-left: 8%;
+    margin-top: 4%;
+    top: unset;
+  }
+
+  #phone_image{
+    height: 450px;
+    width: 325px;
+    margin-left: 4%;
+    bottom: 0;
+  }
+  
+  .jumbotron{
+    height: 730px;
+  }
+  
+  #jumbo_title{
+    text-align: left;
+    padding-left: 70px;
+    font-size: 35px !important; 
+    z-index: 1;
+    margin-top: 85px;
+  }
+  
+  #jumbo_emailform {
+    height: 450px;
+    width: 340px;
+    left: 52%;
+    z-index: 3;
+    top: 17%;
+    transform: unset;
+  }
+}
+
+/*  */
 
 
 /* End Media Queries */
