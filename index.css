@@ -3,10 +3,14 @@
   font-family: DINAlternate-Bold;
 }
 
+
 * {
   font-family: DINAlternate-Bold !important;
 }
 
+html{
+  scroll-behavior: smooth
+}
 
 /* Lines of the Toggler */
 .toggler-icon {
@@ -339,7 +343,7 @@
 }
 
 /* Mobile L */ 
-@media only screen and (min-width: 425px){
+@media only screen and (min-width: 400px){
 
   #jumbo_title{
     margin-top: 75px;
@@ -349,7 +353,7 @@
 
 
 /* Tablet */
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 720px){
   #jumbo_emailform {
     z-index: 3;
     margin-top: 65px;
@@ -398,8 +402,39 @@
   }
 }
 
-/*  */
+/* Laptop */
+@media only screen and (min-width: 992px){
+  
+  .navbar-brand{
+    font-size: 28PX !important;
+  }
+  
+  .nav-link{
+    color: white;
+    background-color: transparent;
+    font-size: 22px;
+  }
+  .nav-link:hover{
+    color: #00C9FF;
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none !important;
+  }
 
+  #jumbo_title{
+    font-size: 45px !important;
+  }
+
+  #jumbo_emailform{
+    width: 400px;
+    height: 500px;
+    left: 58%;
+  }
+
+  #phone_image{
+    margin-left: 7%;
+  }
+}
 
 /* End Media Queries */
 
