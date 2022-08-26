@@ -80,12 +80,15 @@ html{
   color: white;
   font-size: 25px;
   padding-left: 10px !important;
+  border-radius: 10px;
+  transition: background-color .2s;
 }
 
 .nav-link:hover{
   color: #00C9FF;
   background-color: white;
   border-radius: 10px;
+  transition: background-color .2s;
 }
 
 .navbar-toggler-icon{
@@ -215,9 +218,45 @@ html{
     margin-right: 0;
     margin-top: 0;
     bottom: 0;
+    text-align: center;
     /*Test for dots*/
     /* opacity: 50%; */
   }
+
+  .jumboef--input{
+    margin-top: 40px;
+    border: 1.5px solid gray;
+    background-color: lightgray;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif !important;
+    width: 222px;
+    height: 28px;
+  }
+
+  .jumboef--input:focus{
+    outline: 0;
+  }
+
+
+  .jumboef--input::placeholder{
+    font-size: 14px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding-left: 5px; */
+  }
+
+  .jumboef--input:focus::placeholder{
+    color: transparent;
+  }
+
+  #jumboef_inquiry{
+    resize: none;
+  }
+
+  input[type="text"] {
+    font-size: 12px;
+}
 
   .navbar-brand {
     font-size: 20px !important;
@@ -231,6 +270,29 @@ html{
     text-align: center;
     padding: 0;
     margin-top: 70px;
+  }
+
+  #jumboef_inquiry{
+    margin-top: 40px;
+    border: 1.5px solid gray;
+    background-color: lightgray;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif !important;
+  }
+
+  #jumboef_inquiry:focus{
+   outline: 0;
+  }
+
+  #jumboef_inquiry::placeholder{
+    font-size: 14px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #jumboef_inquiry:focus::placeholder{
+    color: transparent;
   }
 
   .jumbotron{
@@ -292,6 +354,7 @@ html{
     font-size: 18px;
     background-color: white;
     color: #00C9FF;
+    border-radius: 0;
   }
 
   .nav-link:hover {
@@ -381,11 +444,17 @@ html{
     color: white;
     background-color: transparent;
     font-size: 22px;
+    border-radius: 10px;
+    text-decoration: none !important;
   }
   .nav-link:hover{
     color: #00C9FF;
     background-color: white;
     border-radius: 10px;
+    text-decoration: none !important;
+  }
+
+  .nav-link:hover{
     text-decoration: none !important;
   }
 
@@ -439,6 +508,9 @@ html{
     margin-left: 10%;
   }
 }
+
+/* 4k */
+
 
 
 /* End Media Queries */
