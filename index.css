@@ -181,6 +181,7 @@ html{
     font-size: 18px;
     background-color: white;
     color: #00C9FF;
+    border-radius: 0;
     /* background-color: rgba(0, 0, 0, .7); */
   }
 
@@ -205,12 +206,16 @@ html{
     height: 330px;
   }
 
+  #jumboef-title{
+    padding-top: 30px;
+  }
+
   #jumbo_emailform {
     right: 0;
     position: absolute;
     /*May change when adding child elements */
     width: 250px;
-    height: 380px;
+    height: 470px;
     /*May change when adding child elements */
     left: 50%;
     top: 72%;
@@ -255,7 +260,7 @@ html{
   }
 
   input[type="text"] {
-    font-size: 12px;
+    font-size: 14px;
 }
 
   .navbar-brand {
@@ -279,6 +284,10 @@ html{
     border-radius: 8px;
     padding-left: 10px;
     font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 14px;
+    width: 222px;
+    height: 100px;
+    margin-bottom: 10px;
   }
 
   #jumboef_inquiry:focus{
@@ -295,8 +304,23 @@ html{
     color: transparent;
   }
 
+  #jumboef_button{
+    color: white;
+    border-radius: 8px;
+    margin-top: 30px;
+    background-color: #0099FF;
+    padding: 5px 30px 5px 30px;
+    transition: background-color .2s;
+  }
+
+  #jumboef_button:hover{
+    background-color: #0383d9;
+    text-decoration: none;
+    transition: background-color .2s;
+  }
+
   .jumbotron{
-    height: 1100px;
+    height: 1150px;
   }
 }
 
