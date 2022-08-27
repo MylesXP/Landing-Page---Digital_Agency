@@ -207,7 +207,7 @@ html{
   }
 
   #jumboef-title{
-    padding-top: 30px;
+    padding-top: 20px;
   }
 
   #jumbo_emailform {
@@ -215,10 +215,10 @@ html{
     position: absolute;
     /*May change when adding child elements */
     width: 250px;
-    height: 470px;
+    height: 460px;
     /*May change when adding child elements */
     left: 50%;
-    top: 72%;
+    top: 75%;
     transform: translate(-50%, -50%);
     margin-right: 0;
     margin-top: 0;
@@ -229,7 +229,7 @@ html{
   }
 
   .jumboef--input{
-    margin-top: 40px;
+    margin-top: 30px;
     border: 1.5px solid gray;
     background-color: lightgray;
     border-radius: 8px;
@@ -274,11 +274,11 @@ html{
     letter-spacing: 0px;
     text-align: center;
     padding: 0;
-    margin-top: 70px;
+    margin-top: 72px;
   }
 
   #jumboef_inquiry{
-    margin-top: 40px;
+    margin-top: 30px;
     border: 1.5px solid gray;
     background-color: lightgray;
     border-radius: 8px;
@@ -304,6 +304,10 @@ html{
     color: transparent;
   }
 
+  #jumboef--input-first{
+    margin-top: 10px;
+  }
+
   #jumboef_button{
     color: white;
     border-radius: 8px;
@@ -320,7 +324,13 @@ html{
   }
 
   .jumbotron{
-    height: 1150px;
+    height: 1100px;
+  }
+
+  #lead{
+    font-size: 12px;
+    margin-bottom: 10px;
+    padding: 0 10px 0 10px;
   }
 }
 
@@ -332,7 +342,7 @@ html{
     position: absolute;
     /*May change when adding child elements */
     width: 280px;
-    height: 400px;
+    height: 450px;
     /*May change when adding child elements */
     left: 50%;
     top: 78%;
@@ -340,6 +350,7 @@ html{
     margin-right: 0;
     margin-top: 0;
     bottom: 0;
+    text-align: center;
     /*Test for dots*/
     /* opacity: 50%; */
   }
@@ -354,8 +365,12 @@ html{
     top: 39%;
   }
 
+  #jumboef-title{
+    padding-top: 20px;
+  }
+
   .jumbotron {
-    height: 1100px;
+    height: 1150px;
   }
 
   #jumbo_title {
@@ -392,6 +407,100 @@ html{
     text-decoration-color: #00C9FF !important;
   }
 
+  .jumboef--input{
+    margin-top: 30px;
+    border: 1.5px solid gray;
+    background-color: lightgray;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif !important;
+    width: 222px;
+    height: 28px;
+  }
+
+  .jumboef--input:focus{
+    outline: 0;
+  }
+
+
+  .jumboef--input::placeholder{
+    font-size: 14px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding-left: 5px; */
+  }
+
+  .jumboef--input:focus::placeholder{
+    color: transparent;
+  }
+
+  #jumboef_inquiry{
+    resize: none;
+  }
+
+  input[type="text"] {
+    font-size: 14px;
+}
+
+  .navbar-brand {
+    font-size: 20px !important;
+  }
+
+  #jumboef_inquiry{
+    margin-top: 30px;
+    border: 1.5px solid gray;
+    background-color: lightgray;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 14px;
+    width: 222px;
+    height: 100px;
+    margin-bottom: 6px;
+  }
+
+  #jumboef_inquiry:focus{
+   outline: 0;
+  }
+
+  #jumboef_inquiry::placeholder{
+    font-size: 14px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #jumboef_inquiry:focus::placeholder{
+    color: transparent;
+  }
+
+  #jumboef--input-first{
+    margin-top: 10px;
+  }
+
+  #jumboef_button{
+    color: white;
+    border-radius: 8px;
+    background-color: #0099FF;
+    padding: 5px 30px 5px 30px;
+    transition: background-color .2s;
+  }
+
+  #jumboef_button:hover{
+    background-color: #0383d9;
+    text-decoration: none;
+    transition: background-color .2s;
+  }
+
+  .jumbotron{
+    height: 1100px;
+  }
+
+  #lead{
+    font-size: 13px;
+    margin-bottom: 10px;
+    padding: 0 10px 0 10px;
+  }
+
   
 }
 
@@ -411,6 +520,12 @@ html{
     z-index: 3;
     margin-top: 65px;
     top: 0;
+    height: 460px;
+    width: 340px;
+    left: 52%;
+    z-index: 3;
+    top: 17%;
+    transform: unset;
   }
 
   .navbar-brand{
@@ -445,14 +560,22 @@ html{
     margin-top: 85px;
   }
   
-  #jumbo_emailform {
-    height: 450px;
-    width: 340px;
-    left: 52%;
-    z-index: 3;
-    top: 17%;
-    transform: unset;
+  #jumboef_button{
+    display: inline-block;
   }
+
+  .jumboef--input{
+    width: 300px;
+  }
+
+  #jumboef_inquiry{
+    width: 300px;
+  }
+
+  #lead{
+    font-size: 15px;
+  }
+
 }
 
 /* Laptop */
@@ -482,6 +605,7 @@ html{
     text-decoration: none !important;
   }
 
+  
   #jumbo_title{
     font-size: 45px !important;
     margin-top: 120px;
