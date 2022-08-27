@@ -531,6 +531,24 @@ html{
   .navbar-brand{
     font-size: 25px !important;
   }
+
+  .nav-link{
+    color: white;
+    background-color: transparent;
+    font-size: 22px;
+    border-radius: 10px;
+    text-decoration: none !important;
+  }
+  .nav-link:hover{
+    color: #00C9FF;
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none !important;
+  }
+
+  .nav-link:focus{
+    text-decoration: none !important;
+  }
   
 
   #phone_image{
@@ -558,6 +576,7 @@ html{
     font-size: 35px !important; 
     z-index: 1;
     margin-top: 85px;
+    line-height: 55px;
   }
   
   #jumboef_button{
