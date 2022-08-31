@@ -332,6 +332,18 @@ html{
     margin-bottom: 10px;
     padding: 0 10px 0 10px;
   }
+
+  #jumbo__blob-1{
+    top: 1% !important;
+  }
+
+  #jumbo__blob-5{
+    top: 44% !important;
+    left: 10% !important;
+    transform: rotate(90deg) !important; 
+  }
+
+  
 }
 
 
@@ -367,10 +379,6 @@ html{
 
   #jumboef-title{
     padding-top: 20px;
-  }
-
-  .jumbotron {
-    height: 1150px;
   }
 
   #jumbo_title {
@@ -492,7 +500,7 @@ html{
   }
 
   .jumbotron{
-    height: 1100px;
+    height: 1150px;
   }
 
   #lead{
@@ -559,8 +567,8 @@ html{
   }
 
   #phone_image{
-    height: 450px;
-    width: 325px;
+    height: 420px;
+    width: 305px;
     margin-left: 4%;
     bottom: 0;
   }
@@ -575,6 +583,7 @@ html{
     font-size: 35px !important; 
     z-index: 1;
     margin-top: 85px;
+    /* font-size: 1.5em !important; */
     line-height: 55px;
   }
   
@@ -638,6 +647,8 @@ html{
 
   #phone_image{
     margin-left: 7%;
+    height: 60%;
+    width: 40%;
   }
 }
 
