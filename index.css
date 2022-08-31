@@ -337,8 +337,12 @@ html{
     top: 1% !important;
   }
 
+  #jumbo__blob-3{
+    left: 80% !important;
+  }
+
   #jumbo__blob-5{
-    top: 44% !important;
+    top: 82% !important;
     left: 10% !important;
     transform: rotate(90deg) !important; 
   }
@@ -509,7 +513,18 @@ html{
     padding: 0 10px 0 10px;
   }
 
-  
+  #jumbo__blob-5{
+    top: 44% !important;
+  }
+
+  #jumbo__blob-3{
+    top: 82% !important;
+  }
+
+  #jumbo__blob-1{
+    top: 30% !important;
+    left: 20% !important;
+  }
 }
 
 /* Mobile L */ 
@@ -517,6 +532,21 @@ html{
   #jumbo_title{
     margin-top: 75px;
     font-size: 32px !important;
+  }
+
+  #jumbo__blob-5{
+    top: 80% !important;
+    left: 80% !important;
+  }
+
+  #jumbo__blob-3{
+    top: 45% !important;
+    left: 78% !important;
+  }
+
+  #jumbo__blob-4{
+    top: 50% !important;
+    left: 10% !important;
   }
 }
 
@@ -603,6 +633,28 @@ html{
     font-size: 15px;
   }
 
+  #jumbo__blob-1{
+    top: 55% !important;
+    left: 40% !important;
+  }
+
+  #jumbo__blob-3{
+    top: 75% !important;
+    left: 50% !important;
+  }
+
+  #jumbo__blob-4{
+    top: 75% !important;
+    left: 2% !important;
+    transform: rotate(78deg);
+  }
+
+  #jumbo__blob-5{
+    top: 12% !important;
+    transform: rotate(150deg);
+    left: 70% !important;
+  }
+
 }
 
 /* Laptop */
@@ -639,9 +691,10 @@ html{
   }
 
   #jumbo_emailform{
-    width: 400px;
+    width: 350px;
     height: 470px;
-    left: 58%;
+    /* left: 58%; */
+    left: 62%;
     top: 19%;
   }
 
@@ -649,6 +702,10 @@ html{
     margin-left: 7%;
     height: 60%;
     width: 40%;
+  }
+
+  #jumbo__blob-5{
+    top: 10% !important;
   }
 }
 
@@ -669,7 +726,7 @@ html{
 
   .jumboef--input{
     width: 90%;
-    height: 10%;
+    height: 8%;
   }
 
   .jumboef--input::placeholder{
@@ -682,6 +739,7 @@ html{
 
   #jumboef_inquiry{
     width: 90%;
+    height: 22%;
     font-size: 20px;
   }
 
