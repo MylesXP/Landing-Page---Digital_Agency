@@ -168,6 +168,11 @@ html{
   z-index: 9999;
 }
 
+#about_section{
+  padding: 0;
+  margin-top: 20%;
+}
+
 
 
 
@@ -654,6 +659,23 @@ html{
     transform: rotate(150deg);
     left: 70% !important;
   }
+
+  .img-fluid{
+    height: 100% !important;
+  }
+
+  #about_section--img{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #about_section--text{
+    padding-right: 0;
+  }
+
+  /* #about_section--maintext{
+    padding-right: 0;
+  } */
 
 }
 
