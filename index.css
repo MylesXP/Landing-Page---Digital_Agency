@@ -672,6 +672,10 @@ html{
   #about_section--text{
     padding-right: 0;
   }
+
+  #forbes_logo{
+    height: 60% !important;
+  }
 }
 
 /* Laptop */
