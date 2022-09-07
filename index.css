@@ -8,7 +8,7 @@
   font-family: DINAlternate-Bold !important;
 }
 
-html{
+html {
   scroll-behavior: smooth
 }
 
@@ -76,7 +76,7 @@ html{
   color: white;
 }
 
-.nav-link{
+.nav-link {
   color: white;
   font-size: 25px;
   padding-left: 10px !important;
@@ -84,22 +84,22 @@ html{
   transition: background-color .2s;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   color: #00C9FF;
   background-color: white;
   border-radius: 10px;
   transition: background-color .2s;
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
   width: unset !important;
   height: unset !important;
   padding-right: 0 !important;
   transition: all 0.2s;
-  
+
 }
 
-.navbar-toggler{
+.navbar-toggler {
   padding-left: 5px !important;
   padding-right: 5px !important;
   padding-top: 8px !important;
@@ -107,35 +107,35 @@ html{
   outline: 0 !important;
 }
 
-.collapsed{
+.collapsed {
   border: 2px solid white !important;
 }
 
-#nav-link__lastItem{
+#nav-link__lastItem {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 
-.jumbotron{
-  background-image: linear-gradient(180deg, #00C9FF 0%, #00B1FF 50%, #0099FF 100%); 
-  height: 820px; 
-  position: relative; 
-  overflow: hidden; 
-  z-index: 1; 
-  max-width: 100%; 
-  max-height: 100%; 
-  margin-bottom: 0 !important; 
+.jumbotron {
+  background-image: linear-gradient(180deg, #00C9FF 0%, #00B1FF 50%, #0099FF 100%);
+  height: 820px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 0 !important;
   border-radius: 0 !important;
   padding: 0 !important;
 }
 
-#jumbo_title{
+#jumbo_title {
   color: #FFFFFF;
   text-align: left;
   padding-left: 70px;
-  color: white; 
-  font-family: Arial, Helvetica, sans-serif; 
-  font-size: 40px; 
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
   z-index: 1;
   /*  */
   margin-top: 100px;
@@ -168,7 +168,7 @@ html{
   z-index: 9999;
 }
 
-#about_section{
+#about_section {
   padding: 0;
   margin-top: 20%;
 }
@@ -180,7 +180,7 @@ html{
 /* Media Queries */
 
 /* < Mobile S */
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 320px) {
 
   .nav-link {
     font-size: 18px;
@@ -202,7 +202,7 @@ html{
     text-decoration-color: #00C9FF !important;
   }
 
-  #phone_image{
+  #phone_image {
     left: 50%;
     top: 37%;
     transform: translate(-50%, -50%);
@@ -211,7 +211,7 @@ html{
     height: 330px;
   }
 
-  #jumboef-title{
+  #jumboef-title {
     padding-top: 20px;
   }
 
@@ -233,7 +233,7 @@ html{
     /* opacity: 50%; */
   }
 
-  .jumboef--input{
+  .jumboef--input {
     margin-top: 30px;
     border: 1.5px solid gray;
     background-color: lightgray;
@@ -244,36 +244,36 @@ html{
     height: 28px;
   }
 
-  .jumboef--input:focus{
+  .jumboef--input:focus {
     outline: 0;
   }
 
 
-  .jumboef--input::placeholder{
+  .jumboef--input::placeholder {
     font-size: 14px;
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
     /* padding-left: 5px; */
   }
 
-  .jumboef--input:focus::placeholder{
+  .jumboef--input:focus::placeholder {
     color: transparent;
   }
 
-  #jumboef_inquiry{
+  #jumboef_inquiry {
     resize: none;
   }
 
   input[type="text"] {
     font-size: 14px;
-}
+  }
 
   .navbar-brand {
     font-size: 20px !important;
   }
 
   #jumbo_title {
-    color: rgb(255,255,255);
+    color: rgb(255, 255, 255);
     font-size: 26px;
     font-style: normal;
     letter-spacing: 0px;
@@ -282,7 +282,7 @@ html{
     margin-top: 72px;
   }
 
-  #jumboef_inquiry{
+  #jumboef_inquiry {
     margin-top: 30px;
     border: 1.5px solid gray;
     background-color: lightgray;
@@ -295,25 +295,25 @@ html{
     margin-bottom: 10px;
   }
 
-  #jumboef_inquiry:focus{
-   outline: 0;
+  #jumboef_inquiry:focus {
+    outline: 0;
   }
 
-  #jumboef_inquiry::placeholder{
+  #jumboef_inquiry::placeholder {
     font-size: 14px;
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
   }
 
-  #jumboef_inquiry:focus::placeholder{
+  #jumboef_inquiry:focus::placeholder {
     color: transparent;
   }
 
-  #jumboef--input-first{
+  #jumboef--input-first {
     margin-top: 10px;
   }
 
-  #jumboef_button{
+  #jumboef_button {
     color: white;
     border-radius: 8px;
     margin-top: 30px;
@@ -322,42 +322,46 @@ html{
     transition: background-color .2s;
   }
 
-  #jumboef_button:hover{
+  #jumboef_button:hover {
     background-color: #0383d9;
     text-decoration: none;
     transition: background-color .2s;
   }
 
-  .jumbotron{
+  .jumbotron {
     height: 1100px;
   }
 
-  #lead{
+  #lead {
     font-size: 12px;
     margin-bottom: 10px;
     padding: 0 10px 0 10px;
   }
 
-  #jumbo__blob-1{
+  #jumbo__blob-1 {
     top: 1% !important;
   }
 
-  #jumbo__blob-3{
+  #jumbo__blob-3 {
     left: 80% !important;
   }
 
-  #jumbo__blob-5{
+  #jumbo__blob-5 {
     top: 82% !important;
     left: 10% !important;
-    transform: rotate(90deg) !important; 
+    transform: rotate(90deg) !important;
   }
 
-  
+  #about_section--subtitle {
+    padding-top: 4%;
+  }
+
+
 }
 
 
-/* Mobile S - Mobile M */ 
-@media only screen and (min-width: 320px){
+/* Mobile S - Mobile M */
+@media only screen and (min-width: 320px) {
   #jumbo_emailform {
     right: 0;
     position: absolute;
@@ -376,7 +380,7 @@ html{
     /* opacity: 50%; */
   }
 
-  #phone_image{
+  #phone_image {
     left: 50%;
     top: 36%;
     transform: translate(-50%, -50%);
@@ -386,12 +390,12 @@ html{
     top: 39%;
   }
 
-  #jumboef-title{
+  #jumboef-title {
     padding-top: 20px;
   }
 
   #jumbo_title {
-    color: rgb(255,255,255);
+    color: rgb(255, 255, 255);
     font-size: 28px;
     /* line-height: 40px; */
     font-style: normal;
@@ -424,7 +428,7 @@ html{
     text-decoration-color: #00C9FF !important;
   }
 
-  .jumboef--input{
+  .jumboef--input {
     margin-top: 30px;
     border: 1.5px solid gray;
     background-color: lightgray;
@@ -435,35 +439,35 @@ html{
     height: 28px;
   }
 
-  .jumboef--input:focus{
+  .jumboef--input:focus {
     outline: 0;
   }
 
 
-  .jumboef--input::placeholder{
+  .jumboef--input::placeholder {
     font-size: 14px;
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
     /* padding-left: 5px; */
   }
 
-  .jumboef--input:focus::placeholder{
+  .jumboef--input:focus::placeholder {
     color: transparent;
   }
 
-  #jumboef_inquiry{
+  #jumboef_inquiry {
     resize: none;
   }
 
   input[type="text"] {
     font-size: 14px;
-}
+  }
 
   .navbar-brand {
     font-size: 20px !important;
   }
 
-  #jumboef_inquiry{
+  #jumboef_inquiry {
     margin-top: 30px;
     border: 1.5px solid gray;
     background-color: lightgray;
@@ -476,25 +480,25 @@ html{
     margin-bottom: 6px;
   }
 
-  #jumboef_inquiry:focus{
-   outline: 0;
+  #jumboef_inquiry:focus {
+    outline: 0;
   }
 
-  #jumboef_inquiry::placeholder{
+  #jumboef_inquiry::placeholder {
     font-size: 14px;
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
   }
 
-  #jumboef_inquiry:focus::placeholder{
+  #jumboef_inquiry:focus::placeholder {
     color: transparent;
   }
 
-  #jumboef--input-first{
+  #jumboef--input-first {
     margin-top: 10px;
   }
 
-  #jumboef_button{
+  #jumboef_button {
     color: white;
     border-radius: 8px;
     background-color: #0099FF;
@@ -502,62 +506,70 @@ html{
     transition: background-color .2s;
   }
 
-  #jumboef_button:hover{
+  #jumboef_button:hover {
     background-color: #0383d9;
     text-decoration: none;
     transition: background-color .2s;
   }
 
-  .jumbotron{
+  .jumbotron {
     height: 1150px;
   }
 
-  #lead{
+  #lead {
     font-size: 13px;
     margin-bottom: 10px;
     padding: 0 10px 0 10px;
   }
 
-  #jumbo__blob-5{
+  #jumbo__blob-5 {
     top: 44% !important;
   }
 
-  #jumbo__blob-3{
+  #jumbo__blob-3 {
     top: 82% !important;
   }
 
-  #jumbo__blob-1{
+  #jumbo__blob-1 {
     top: 30% !important;
     left: 20% !important;
   }
+
+  #about_section--subtitle {
+    padding-top: 4%;
+  }
 }
 
-/* Mobile L */ 
-@media only screen and (min-width: 400px){
-  #jumbo_title{
+/* Mobile L */
+@media only screen and (min-width: 400px) {
+  #jumbo_title {
     margin-top: 75px;
     font-size: 32px !important;
   }
 
-  #jumbo__blob-5{
+  #jumbo__blob-5 {
     top: 80% !important;
     left: 80% !important;
   }
 
-  #jumbo__blob-3{
+  #jumbo__blob-3 {
     top: 45% !important;
     left: 78% !important;
   }
 
-  #jumbo__blob-4{
+  #jumbo__blob-4 {
     top: 50% !important;
     left: 10% !important;
+  }
+
+  #about_section--subtitle {
+    padding-top: 4%;
   }
 }
 
 
 /* Tablet */
-@media only screen and (min-width: 720px){
+@media only screen and (min-width: 720px) {
   #jumbo_emailform {
     z-index: 3;
     margin-top: 90px;
@@ -570,30 +582,31 @@ html{
     transform: unset;
   }
 
-  .navbar-brand{
+  .navbar-brand {
     font-size: 25px !important;
   }
 
-  .nav-link{
+  .nav-link {
     color: white;
     background-color: transparent;
     font-size: 22px;
     border-radius: 10px;
     text-decoration: none !important;
   }
-  .nav-link:hover{
+
+  .nav-link:hover {
     color: #00C9FF;
     background-color: white;
     border-radius: 10px;
     text-decoration: none !important;
   }
 
-  .nav-link:focus{
+  .nav-link:focus {
     text-decoration: none !important;
   }
-  
 
-  #phone_image{
+
+  #phone_image {
     transform: unset;
     left: unset;
     margin-left: 8%;
@@ -601,117 +614,131 @@ html{
     top: unset;
   }
 
-  #phone_image{
+  #phone_image {
     height: 420px;
     width: 305px;
     margin-left: 4%;
     bottom: 0;
   }
-  
-  .jumbotron{
+
+  .jumbotron {
     height: 730px;
   }
-  
-  #jumbo_title{
+
+  #jumbo_title {
     text-align: left;
     padding-left: 70px;
-    font-size: 35px !important; 
+    font-size: 35px !important;
     z-index: 1;
     margin-top: 85px;
     /* font-size: 1.5em !important; */
     line-height: 55px;
   }
-  
-  #jumboef_button{
+
+  #jumboef_button {
     display: inline-block;
   }
 
-  .jumboef--input{
+  .jumboef--input {
     width: 300px;
   }
 
-  #jumboef_inquiry{
+  #jumboef_inquiry {
     width: 300px;
   }
 
-  #lead{
+  #lead {
     font-size: 15px;
   }
 
-  #jumbo__blob-1{
+  #jumbo__blob-1 {
     top: 55% !important;
     left: 40% !important;
   }
 
-  #jumbo__blob-3{
+  #jumbo__blob-3 {
     top: 75% !important;
     left: 50% !important;
   }
 
-  #jumbo__blob-4{
+  #jumbo__blob-4 {
     top: 75% !important;
     left: 2% !important;
     transform: rotate(78deg);
   }
 
-  #jumbo__blob-5{
+  #jumbo__blob-5 {
     top: 12% !important;
     transform: rotate(150deg);
     left: 70% !important;
   }
 
-  .img-fluid{
+  .img-fluid {
     height: 100% !important;
   }
 
-  #about_section--img{
+  #about_section--img {
     padding-left: 0;
     padding-right: 0;
   }
 
-  #about_section--text{
+  #about_section--text {
     padding-right: 0;
   }
 
-  #forbes_logo{
+  #forbes_logo {
     height: 60% !important;
+  }
+
+  #about_section--subtitle {
+    padding-top: 0;
+  }
+
+  #about_section{
+    margin-top: 12% !important;
+  }
+
+  #trusted_companies-banner{
+    margin-top: 15% !important;
   }
 }
 
 /* Laptop */
-@media only screen and (min-width: 970px){
-  .jumbotron{
+@media only screen and (min-width: 970px) {
+  .jumbotron {
     height: 850px;
   }
-  .navbar-brand{
+
+  .navbar-brand {
     font-size: 28px !important;
   }
-  
-  .nav-link{
+
+  .nav-link {
     color: white;
     background-color: transparent;
     font-size: 22px;
     border-radius: 10px;
     text-decoration: none !important;
   }
-  .nav-link:hover{
+
+  .nav-link:hover {
     color: #00C9FF;
     background-color: white;
     border-radius: 10px;
     text-decoration: none !important;
   }
 
-  .nav-link:hover{
+  .nav-link:hover {
     text-decoration: none !important;
   }
 
-  
-  #jumbo_title{
+
+  #jumbo_title {
     font-size: 45px !important;
     margin-top: 120px;
   }
 
-  #jumbo_emailform{
+  #jumbo_emailform {
     width: 350px;
     height: 470px;
     /* left: 58%; */
@@ -719,81 +746,94 @@ html{
     top: 19%;
   }
 
-  #phone_image{
+  #phone_image {
     margin-left: 7%;
     height: 60%;
     width: 40%;
   }
 
-  #jumbo__blob-5{
+  #jumbo__blob-5 {
     top: 10% !important;
+  }
+
+  #about_section--text p {
+    font-size: 1em !important;
+  }
+
+  #about_section--subtitle {
+    padding-top: 0;
+    font-size: 1em !important;
+  }
+
+  #about_section--button {
+    font-size: 1em !important;
   }
 }
 
 /* Laptop L */
-@media only screen and (min-width: 1440px){
+@media only screen and (min-width: 1440px) {
 
-  .navbar-brand{
+  .navbar-brand {
     font-size: 40px !important;
   }
 
-  .nav-link{
+  .nav-link {
     font-size: 30px;
   }
 
-  .jumbotron{
+  .jumbotron {
     height: 930px;
   }
 
-  .jumboef--input{
+  .jumboef--input {
     width: 90%;
     height: 8%;
   }
 
-  .jumboef--input::placeholder{
+  .jumboef--input::placeholder {
     font-size: 20px;
   }
 
   input[type="text"] {
     font-size: 20px;
-}
+  }
 
-  #jumboef_inquiry{
+  #jumboef_inquiry {
     width: 90%;
     height: 22%;
     font-size: 20px;
   }
 
-  #jumboef_inquiry::placeholder{
+  #jumboef_inquiry::placeholder {
     font-size: 20px;
   }
 
-  #jumbo_title{
+  #jumbo_title {
     font-size: 47px !important;
     margin-top: 150px;
   }
 
-  #jumboef-title{
+  #jumboef-title {
     font-size: 1.8em;
   }
 
-  #lead{
+  #lead {
     font-size: 1em;
     padding: 0 20px 0 20px;
   }
 
-  #jumbo_emailform{
+  #jumbo_emailform {
     width: 460px;
     height: 600px;
     left: 65%;
     top: 11%;
   }
 
-  #jumboef_button{
+  #jumboef_button {
     font-size: 1.4em;
   }
 
-  #phone_image{
+  #phone_image {
     height: 550px;
     width: 425px;
     margin-left: 10%;
