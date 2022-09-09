@@ -36,13 +36,22 @@ html {
   text-align: center;
 }
 
-.card-text .text-muted{
+.card-text .text-muted a{
   color: #0099FF !important;
+  text-decoration: none !important;
+}
+
+.card-text{
+  margin-top: 7px;
 }
 
 .card-img-top{
   width: 70% !important;
   /* height: 50% !important; */
+}
+
+.card-deck{
+  margin-top: 15%;
 }
 
 .border-left {
