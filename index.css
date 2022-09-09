@@ -702,9 +702,9 @@ html {
     margin-top: 15% !important;
   }
 
-  #about_section--text p {
+  /* #about_section--text p {
     font-size: .6em !important;
-  }
+  } */
 
   #about_section--button {
     font-size: .5em !important;
