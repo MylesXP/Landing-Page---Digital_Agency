@@ -10,8 +10,8 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding: 0;
-  scroll-margin: 0;
+  scroll-padding: 0 !important;
+  scroll-margin: 0 !important;
 }
 
 .card{
