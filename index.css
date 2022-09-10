@@ -749,18 +749,14 @@ html {
     margin-top: 12% !important;
   }
 
-  #about_section--maintext{
+  /* #about_section--maintext{
    font-size: .7rem !important;
-  }
+  } */
 
   #trusted_companies-banner{
     margin-top: 15% !important;
   }
-
-  /* #about_section--text p {
-    font-size: .6em !important;
-  } */
-
+  
   #about_section--button {
     font-size: .6em !important;
   }
