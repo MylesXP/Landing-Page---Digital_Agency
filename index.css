@@ -749,9 +749,9 @@ html {
     margin-top: 12% !important;
   }
 
-  /* #about_section--maintext{
-   font-size: .7rem !important;
-  } */
+  #about_section--maintext{
+   font-size: .66rem !important;
+  }
 
   #trusted_companies-banner{
     margin-top: 15% !important;
