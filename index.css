@@ -749,6 +749,10 @@ html {
     margin-top: 12% !important;
   }
 
+  #about_section--maintext{
+   font-size: .64rem !important;
+  }
+
   #trusted_companies-banner{
     margin-top: 15% !important;
   }
@@ -915,7 +919,6 @@ html {
   #about_section--title h6{
     font-size: 30px !important;
   }
-
   /* #ali_logo{
     width: 20% !important;
   } */
