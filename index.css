@@ -68,7 +68,6 @@ html {
   width: 30px;
   height: 3px;
   background-color: white;
-
   display: block;
   transition: all 0.2s;
 }
