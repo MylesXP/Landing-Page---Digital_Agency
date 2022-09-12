@@ -61,7 +61,8 @@ html {
   position: absolute;
   top: 20%;
   bottom: 30%;
-  right: -5%;
+  /* right: -5%; */
+  left: -8%;
 }
 /* Lines of the Toggler */
 .toggler-icon {
