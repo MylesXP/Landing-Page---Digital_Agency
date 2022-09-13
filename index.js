@@ -1,4 +1,4 @@
-//Navbar hamburger collapses when selecting or clicking on anything outside of it
+// Navbar hamburger collapses when selecting or clicking on anything outside of it
 $(document).click(function (event) {
     var clickover = $(event.target);
     var $navbar = $(".navbar-collapse");
@@ -8,7 +8,7 @@ $(document).click(function (event) {
     }
   });
   
-  //Navbar hamburger collapses when choice is selected
+  // Navbar hamburger collapses when navlink is selected
   $(".navbar-nav li a:not('.dropdown-toggle')").on("click", function () {
     $(".navbar-collapse").collapse("hide");
   });

@@ -52,9 +52,21 @@ html {
   /* height: 50% !important; */
 }
 
-.card-deck{
-  margin-top: 15%;
+#service_section-wrapper{
+  margin-top: 17%;
 }
+
+#service_section-titlewrapper{
+  margin-bottom: 5%;
+}
+
+/* #service-title-lead{
+
+}
+
+#service-title{
+  
+} */
 
 .border-left {
   border-left: 2px solid #E5E5E5;
@@ -410,6 +422,25 @@ html {
   .border-left{
     display: none;
   }
+
+  #service_title-lead{
+    font-size: .9em;
+  }
+  
+  #service_title{
+    font-size: 1.1em;
+  }
+
+  #service_section-titlewrapper{
+    margin-bottom: 12%;
+  }
+
+  .card-title{
+    font-size: 1.1em;
+  }
+  .card-text{
+    font-size: .8em;
+  }
 }
 
 
@@ -590,6 +621,25 @@ html {
 
   #about_section--subtitle {
     padding-top: 4%;
+  }
+
+  #service_title-lead{
+    font-size: .9em;
+  }
+  
+  #service_title{
+    font-size: 1.1em;
+  }
+
+  #service_section-titlewrapper{
+    margin-bottom: 12%;
+  }
+
+  .card-title{
+    font-size: 1.1em;
+  }
+  .card-text{
+    font-size: .8em;
   }
 }
 
