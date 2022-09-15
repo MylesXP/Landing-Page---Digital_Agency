@@ -812,6 +812,23 @@ html {
   #about_section--button {
     font-size: .6em !important;
   }
+
+  #service_title-lead{
+    font-size: 1em;
+  }
+  
+  #service_title{
+    font-size: 1.5em;
+  }
+
+  #service_section-titlewrapper{
+    margin-bottom: 5%;
+  }
+
+  .card-title{
+    font-size: .95em;
+    margin-bottom: .1em !important;
+  }
 }
 
 /* Laptop */
@@ -878,6 +895,22 @@ html {
 
   #about_section--button {
     font-size: .7em !important;
+  }
+
+  .card-title{
+    font-size: 1.2em;
+  }
+
+  .card-img-top{
+    width: 45% !important;
+  }
+
+  .card-text{
+    font-size: .95em;
+  }
+
+  .border-left{
+    left: -5.4%;
   }
 }
 
@@ -966,6 +999,14 @@ html {
 
   #about_section--title h6{
     font-size: 30px !important;
+  }
+
+  .card-img-top{
+    width: 50% !important;
+  }
+
+  .border-left{
+    left: -4.5%;
   }
   /* #ali_logo{
     width: 20% !important;
