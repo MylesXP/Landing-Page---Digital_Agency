@@ -70,10 +70,11 @@ html {
 #service_title-lead::before,
 #service_title-lead::after {
   content: '';
+  /* background-color: #0099FF; */
   /* Change below to change the length of the lines */
   flex: .18; 
   /* Change below to change the Fill of the line */
-  border-width: 1px;
+  border-width: 1px solid;
   border-style: solid;
   border-image: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(138,208,255,1) 46%, rgba(0,153,255,1) 100%) 1;
   /* border-image-source: linear-gradient(to left, #743ad5, #d53a9d); */
