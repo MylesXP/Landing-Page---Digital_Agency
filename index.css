@@ -72,16 +72,17 @@ html {
   content: '';
   /* background-color: #0099FF; */
   /* Change below to change the length of the lines */
-  flex: .18; 
+  flex: .18;
   /* Change below to change the Fill of the line */
   border-width: 1px solid;
   border-style: solid;
-  border-image: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(138,208,255,1) 46%, rgba(0,153,255,1) 100%) 1;
+  border-image: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(138, 208, 255, 1) 46%, rgba(0, 153, 255, 1) 100%) 1;
   /* border-image-source: linear-gradient(to left, #743ad5, #d53a9d); */
 }
-#service_title-lead::before{
+
+#service_title-lead::before {
   /* background: rgb(255,255,255); */
-  border-image: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(138,208,255,1) 46%, rgba(0,153,255,1) 100%) 1;
+  border-image: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(138, 208, 255, 1) 46%, rgba(0, 153, 255, 1) 100%) 1;
 }
 
 #service_title-lead:not(:empty)::before {
@@ -479,6 +480,11 @@ html {
   .card-text {
     font-size: .8em;
   }
+
+  #service_title-lead::before,
+  #service_title-lead::after {
+    flex: .2;
+  }
 }
 
 
@@ -707,6 +713,11 @@ html {
   #about_section--subtitle {
     padding-top: 4%;
   }
+
+  #service_title-lead::before,
+  #service_title-lead::after {
+    flex: .13;
+  }
 }
 
 
@@ -868,6 +879,11 @@ html {
     font-size: .95em;
     margin-bottom: .1em !important;
   }
+
+  #service_title-lead::before,
+  #service_title-lead::after {
+    flex: .1;
+  }
 }
 
 /* Laptop */
@@ -951,6 +967,10 @@ html {
   .border-left {
     left: -5.4%;
   }
+  #service_title-lead::before,
+#service_title-lead::after {
+  flex: .08; 
+}
 }
 
 /* Laptop L */
@@ -1047,6 +1067,11 @@ html {
   .border-left {
     left: -4.5%;
   }
+
+  #service_title-lead::before,
+#service_title-lead::after {
+  flex: .05; 
+}
 
   /* #ali_logo{
     width: 20% !important;
