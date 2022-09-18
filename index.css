@@ -70,8 +70,17 @@ html {
 #service_title-lead::before,
 #service_title-lead::after {
   content: '';
-  flex: 1;
-  border-bottom: 1px solid #000;
+  /* Change below to change the length of the lines */
+  flex: .18; 
+  /* Change below to change the Fill of the line */
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(138,208,255,1) 46%, rgba(0,153,255,1) 100%) 1;
+  /* border-image-source: linear-gradient(to left, #743ad5, #d53a9d); */
+}
+#service_title-lead::before{
+  /* background: rgb(255,255,255); */
+  border-image: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(138,208,255,1) 46%, rgba(0,153,255,1) 100%) 1;
 }
 
 #service_title-lead:not(:empty)::before {
@@ -81,6 +90,7 @@ html {
 #service_title-lead:not(:empty)::after {
   margin-left: .25em;
 }
+
 
 /* #service-title-lead{
 
