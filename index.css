@@ -740,6 +740,7 @@ html {
   .card-body {
     margin: 0 auto;
     text-align: center;
+    width: 80%;
   }
 
   .card-img-top {
