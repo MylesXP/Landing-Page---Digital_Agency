@@ -748,7 +748,7 @@ html {
   .card-body {
     margin: 0 auto;
     text-align: center;
-    width: 80%;
+    width: 80% !important;
   }
 
   .card-img-top {
@@ -922,7 +922,8 @@ html {
   }
 
   .card-body {
-    all: unset;
+    width: unset;
+    text-align: unset;
   }
 
   .card-img-top {
