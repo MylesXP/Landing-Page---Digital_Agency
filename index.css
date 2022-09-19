@@ -929,9 +929,9 @@ html {
     width: 75% !important;
   }
 
-  .card-text .text-muted a {
+  /* .card-text .text-muted a {
     font-size: 3em;
-  }
+  } */
 }
 
 /* Laptop */
