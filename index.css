@@ -485,6 +485,15 @@ html {
   #service_title-lead::after {
     flex: .2;
   }
+
+  .card-body {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .card-img-top {
+    width: 55% !important;
+  }
 }
 
 
@@ -686,6 +695,15 @@ html {
   .card-text {
     font-size: .8em;
   }
+
+  .card-body {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .card-img-top {
+    width: 45% !important;
+  }
 }
 
 /* Mobile L */
@@ -717,6 +735,15 @@ html {
   #service_title-lead::before,
   #service_title-lead::after {
     flex: .13;
+  }
+
+  .card-body {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .card-img-top {
+    width: 40% !important;
   }
 }
 
@@ -884,6 +911,14 @@ html {
   #service_title-lead::after {
     flex: .1;
   }
+
+  .card-body {
+    all: unset;
+  }
+
+  .card-img-top {
+    width: 75% !important;
+  }
 }
 
 /* Laptop */
@@ -967,10 +1002,15 @@ html {
   .border-left {
     left: -5.4%;
   }
+
   #service_title-lead::before,
-#service_title-lead::after {
-  flex: .08; 
-}
+  #service_title-lead::after {
+    flex: .08;
+  }
+
+  .card-img-top {
+    width: 75% !important;
+  }
 }
 
 /* Laptop L */
@@ -1069,9 +1109,9 @@ html {
   }
 
   #service_title-lead::before,
-#service_title-lead::after {
-  flex: .05; 
-}
+  #service_title-lead::after {
+    flex: .05;
+  }
 
   /* #ali_logo{
     width: 20% !important;
