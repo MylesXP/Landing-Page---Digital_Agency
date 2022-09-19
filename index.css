@@ -748,11 +748,16 @@ html {
   .card-body {
     margin: 0 auto;
     text-align: center;
-    width: 80%;
+    /* width: 80%; */
   }
 
   .card-img-top {
     width: 40% !important;
+  }
+
+  .card-text{
+    width: 80%;
+    margin: 0 auto;
   }
 }
 
