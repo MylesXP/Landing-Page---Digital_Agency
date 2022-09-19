@@ -495,7 +495,7 @@ html {
     width: 55% !important;
   }
 
-  .card-text .text-muted a{
+  .card-text .text-muted a {
     font-size: 1em;
   }
 }
@@ -709,7 +709,7 @@ html {
     width: 45% !important;
   }
 
-  .card-text .text-muted a{
+  .card-text .text-muted a {
     font-size: 1em;
   }
 }
@@ -927,6 +927,10 @@ html {
 
   .card-img-top {
     width: 75% !important;
+  }
+
+  .card-text .text-muted a {
+    font-size: 3em;
   }
 }
 
