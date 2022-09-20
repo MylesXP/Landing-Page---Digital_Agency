@@ -744,7 +744,7 @@ html {
 
   #service_title-lead::before,
   #service_title-lead::after {
-    flex: .13;
+    flex: .1;
   }
 
   .card-body {
@@ -755,6 +755,10 @@ html {
 
   .card-img-top {
     width: 40% !important;
+  }
+
+  #service_title{
+    font-size: 1.4em !important;
   }
 
   /* .card-text{
