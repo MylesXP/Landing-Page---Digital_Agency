@@ -498,6 +498,10 @@ html {
   .card-text .text-muted a {
     font-size: 1em;
   }
+
+  #busins_logo {
+    height: 70% !important;
+  }
 }
 
 
@@ -714,6 +718,12 @@ html {
   .card-text .text-muted a {
     font-size: 1em;
   }
+
+  #busins_logo {
+    height: 70%;
+  }
+
+  /* Samsung s22 ultra is in this category */
 }
 
 /* Mobile L */
@@ -744,7 +754,7 @@ html {
 
   #service_title-lead::before,
   #service_title-lead::after {
-    flex: .1;
+    flex: .15;
   }
 
   .card-body {
@@ -757,7 +767,7 @@ html {
     width: 40% !important;
   }
 
-  #service_title{
+  #service_title {
     font-size: 1.4em !important;
   }
 
@@ -937,13 +947,21 @@ html {
     text-align: unset;
   }
 
-  .card-text{
+  .card-text {
     margin: unset;
     width: unset;
   }
 
   .card-img-top {
     width: 75% !important;
+  }
+
+  #ali_logo-reg {
+    height: 70% !important;
+  }
+
+  #busins_logo {
+    height: 70% !important;
   }
 
   /* .card-text .text-muted a {
@@ -1143,8 +1161,14 @@ html {
     flex: .05;
   }
 
-  /* #ali_logo{
-    width: 20% !important;
+  #busins_logo {
+    width: 90%;
+    height: 60% !important;
+  }
+
+  /* #forbes_logo{
+    width: 80%;
+    height: 50% !important;
   } */
 }
 
