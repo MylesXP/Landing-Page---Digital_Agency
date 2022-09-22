@@ -475,6 +475,7 @@ html {
 
   .card-title {
     font-size: 1.1em;
+    margin-bottom: 5px !important;
   }
 
   .card-text {
@@ -702,6 +703,7 @@ html {
 
   .card-title {
     font-size: 1.1em;
+    margin-bottom: 5px !important;
   }
 
   .card-text {
@@ -941,7 +943,7 @@ html {
   }
 
   .card-title {
-    font-size: .95em;
+    font-size: .85em;
     margin-bottom: .1em !important;
   }
 
@@ -958,6 +960,7 @@ html {
   .card-text {
     margin: unset;
     width: unset;
+    font-size: .68em;
   }
 
   .card-img-top {
@@ -1048,7 +1051,7 @@ html {
   }
 
   .card-title {
-    font-size: 1.2em;
+    font-size: 1.18em;
   }
 
   .card-img-top {
@@ -1056,7 +1059,7 @@ html {
   }
 
   .card-text {
-    font-size: .95em;
+    font-size: .92em;
   }
 
   .border-left {
