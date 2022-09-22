@@ -502,6 +502,10 @@ html {
   #busins_logo {
     height: 70% !important;
   }
+
+  #fp_logo{
+    width: 70%;
+  }
 }
 
 
@@ -721,6 +725,10 @@ html {
 
   #busins_logo {
     height: 70%;
+  }
+
+  #fp_logo{
+    width: 70%;
   }
 
   /* Samsung s22 ultra is in this category */
@@ -964,6 +972,10 @@ html {
     height: 70% !important;
   }
 
+  #env_logo{
+    height: 40% !important;
+  }
+
   /* .card-text .text-muted a {
     font-size: 3em;
   } */
@@ -1173,7 +1185,31 @@ html {
 }
 
 /* 4k */
+@media only screen and (min-width: 2560px) {
+  .img-fluid{
+  width: 80% !important;
+  }
 
+  #forbes_logo{
+    height: 40% !important;
+  }
+
+  #busins_logo{
+    height: 50% !important;
+  }
+
+  #env_logo{
+    height: 30% !important;
+  }
+
+  #fp_logo{
+    height: 90% !important;
+  }
+
+  #ali_logo-reg{
+    width: 80% !important;
+  }
+}
 
 
 /* End Media Queries */
