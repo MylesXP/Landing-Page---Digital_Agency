@@ -1127,6 +1127,11 @@ html {
   .card-img-top {
     width: 75% !important;
   }
+
+  .tes-item{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
 
 /* Laptop L */
@@ -1232,6 +1237,11 @@ html {
   #busins_logo {
     width: 90%;
     height: 60% !important;
+  }
+
+  .tes-item{
+    margin-left: 15%;
+    margin-right: 15%;
   }
 
   /* #forbes_logo{
