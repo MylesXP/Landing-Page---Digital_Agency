@@ -14,6 +14,8 @@
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="OwlCarousel/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="OwlCarousel/dist/assets/owl.theme.default.min.css">
 </head>
 
 <body class="px-0" style="margin: 0; overflow-x: hidden;">
@@ -212,7 +214,7 @@
         <img id="busins_logo" class="img-fluid" src="pictures/company logos/Business Insider.png" alt="">
       </div>
       <div class="col-4 col-md-2">
-        <img id="fp_logo" class="img-fluid" src="pictures/company logos/Freepik.png" alt="" >
+        <img id="fp_logo" class="img-fluid" src="pictures/company logos/Freepik.png" alt="">
       </div>
       <div class="container-fluid text-center d-block d-sm-none" style="margin-top: 5%;">
         <div class="row">
@@ -243,7 +245,7 @@
       <div id="about_section--text" class="col-sm col-lg-6">
         <h6 id="about_section--subtitle" style="float: left; letter-spacing: 2px; font-size: 16px;">WHO WE ARE</h6>
         <div id="about_section--title">
-          <h6 style="float: left; font-size: 22px;">How we Propel Your
+          <h6 style="float: left; font-size: 22px;">How We Propel Your
             Business to the Next Level</h6>
         </div>
         <p id="about_section--maintext" style="font-size: 15px; display: inline-block;">Et quidem exercitus quid ex eo
@@ -298,6 +300,79 @@
     </div>
   </section>
 
+  <div id="testimonial_section" class="container-fluid text-center">
+    <h4 id="testimonial_title">Testimonials</h4>
+    <div class="owl-carousel owl-theme">
+      <div class="tes-item">
+        <h5>
+          <img class="quote" src="pictures/Quotation.svg" alt="">
+          <img src="pictures/Testimonial Pics/Picture Frame.svg" alt="Avatar Title" title="Avatar 1"
+            class="testimonial-pic" />
+          <h5 class="testcard-title">John S.</h5>
+        </h5>
+        <p id="testcard-text">
+          Omne animal, simul atque admonitionem altera occulta quaedam et quale sit extremum et impetus quo ignorare
+        </p>
+      </div>
+      <div class="tes-item">
+        <h5>
+          <img class="quote" src="pictures/Quotation.svg" alt="">
+          <img src="pictures/Testimonial Pics/Picture2.svg" alt="Avatar Title" title="Avatar 1"
+            class="testimonial-pic" />
+          <h5 class="testcard-title">Mary J.</h5>
+        </h5>
+        <p id="testcard-text">
+          Omne animal, simul atque admonitionem altera occulta quaedam et quale sit extremum et impetus quo ignorare
+        </p>
+      </div>
+      <div class="tes-item">
+        <h5>
+          <img class="quote" src="pictures/Quotation.svg" alt="">
+          <img src="pictures/Testimonial Pics/Picture3.svg" alt="Avatar Title" title="Avatar 1"
+            class="testimonial-pic" />
+          <h5 class="testcard-title">Peter P.</h5>
+        </h5>
+        <p id="testcard-text">
+          Omne animal, simul atque admonitionem altera occulta quaedam et quale sit extremum et impetus quo ignorare
+        </p>
+      </div>
+      <div class="tes-item">
+        <h5>
+          <img class="quote" src="pictures/Quotation.svg" alt="">
+          <img src="pictures/Testimonial Pics/Picture2.svg" alt="Avatar Title" title="Avatar 1"
+            class="testimonial-pic" />
+          <h5 class="testcard-title">Mary J.</h5>
+        </h5>
+        <p id="testcard-text">
+          Omne animal, simul atque admonitionem altera occulta quaedam et quale sit extremum et impetus quo ignorare
+        </p>
+      </div>
+      <div class="tes-item">
+        <h5>
+          <img class="quote" src="pictures/Quotation.svg" alt="">
+          <img src="pictures/Testimonial Pics/Picture2.svg" alt="Avatar Title" title="Avatar 1"
+            class="testimonial-pic" />
+          <h5 class="testcard-title">Mary J.</h5>
+        </h5>
+        <p id="testcard-text">
+          Omne animal, simul atque admonitionem altera occulta quaedam et quale sit extremum et impetus quo ignorare
+        </p>
+      </div>
+      <div class="tes-item">
+        <h5>
+          <img class="quote" src="pictures/Quotation.svg" alt="">
+          <img src="pictures/Testimonial Pics/Picture2.svg" alt="Avatar Title" title="Avatar 1"
+            class="testimonial-pic" />
+          <h5 class="testcard-title">Mary J.</h5>
+        </h5>
+        <p id="testcard-text">
+          Omne animal, simul atque admonitionem altera occulta quaedam et quale sit extremum et impetus quo ignorare
+        </p>
+      </div>
+    </div>
+  </div>
+
+
 </body>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -307,6 +382,25 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
   integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="index.js" async defer></script>
+<script src="OwlCarousel/dist/owl.carousel.min.js"></script>
+<script>
+  $(".owl-carousel").owlCarousel({
+    loop: false,
+    margin: 10,
+    nav: false,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 3,
+      },
+      1000: {
+        items: 3,
+      },
+    },
+  });
+</script>
 </body>
 
 </html>

@@ -271,6 +271,59 @@ html {
   margin-top: 20%;
 }
 
+#testimonial_title {
+  text-align: center;
+  padding-bottom: 4%;
+}
+
+#testimonial_section {
+  margin-top: 17%;
+}
+
+.testimonial-pic {
+  width: 50% !important;
+  margin: 0 auto;
+  z-index: 1;
+  display: absolute;
+  transform: translateY(-6%);
+  /* transform: translate(-50%, -50%); */
+}
+
+.tes-item {
+  border: 1px solid gray;
+  border-radius: 8px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.quote {
+  width: 25% !important;
+  padding-left: 4%;
+  padding-top: 4%;
+  z-index: -1;
+  display: relative;
+}
+
+.testcard-title {
+  transform: translateY(-60%);
+}
+
+.owl-stage {
+  margin-bottom: 3%;
+}
+
+.owl-dots .owl-dot .active {
+
+}
+
+#testcard-text {
+  transform: translateY(-15%);
+  font-size: .9em;
+  font-style: italic;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
 
 
 
@@ -504,7 +557,7 @@ html {
     height: 70% !important;
   }
 
-  #fp_logo{
+  #fp_logo {
     width: 70%;
   }
 }
@@ -729,7 +782,7 @@ html {
     height: 70%;
   }
 
-  #fp_logo{
+  #fp_logo {
     width: 70%;
   }
 
@@ -975,7 +1028,7 @@ html {
     height: 70% !important;
   }
 
-  #env_logo{
+  #env_logo {
     height: 40% !important;
   }
 
@@ -1189,27 +1242,27 @@ html {
 
 /* 4k */
 @media only screen and (min-width: 2560px) {
-  .img-fluid{
-  width: 80% !important;
+  .img-fluid {
+    width: 80% !important;
   }
 
-  #forbes_logo{
+  #forbes_logo {
     height: 40% !important;
   }
 
-  #busins_logo{
+  #busins_logo {
     height: 50% !important;
   }
 
-  #env_logo{
+  #env_logo {
     height: 30% !important;
   }
 
-  #fp_logo{
+  #fp_logo {
     height: 90% !important;
   }
 
-  #ali_logo-reg{
+  #ali_logo-reg {
     width: 80% !important;
   }
 }
