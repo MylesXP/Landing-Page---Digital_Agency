@@ -286,13 +286,12 @@ html {
   z-index: 1;
   display: absolute;
   transform: translateY(-6%);
-  /* transform: translate(-50%, -50%); */
 }
 
 .tes-item {
-  border: 1px solid gray;
+  margin: 2% 2% 0 2%;
   border-radius: 8px;
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: -.6px 2px 6px 1px rgba(0, 0, 0, 0.5);
 }
 
 .quote {
@@ -1013,7 +1012,7 @@ html {
   .card-text {
     margin: unset;
     width: unset;
-    font-size: .68em;
+    font-size: .72em;
   }
 
   .card-img-top {
@@ -1032,9 +1031,9 @@ html {
     height: 40% !important;
   }
 
-  /* .card-text .text-muted a {
-    font-size: 3em;
-  } */
+  .card-text .text-muted a {
+    font-size: 1em;
+  }
 }
 
 /* Laptop */
