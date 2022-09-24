@@ -1049,7 +1049,11 @@ html {
   }
 
   .card-text .text-muted a {
-    font-size: 1em;
+    font-size: .7em;
+  }
+
+  .card-text{
+    font-size: .7em !important;
   }
 }
 
@@ -1128,7 +1132,7 @@ html {
   }
 
   .card-text {
-    font-size: .92em;
+    font-size: .95em !important;
   }
 
   .border-left {
@@ -1258,6 +1262,14 @@ html {
   .tes-item{
     margin-left: 15%;
     margin-right: 15%;
+  }
+
+  .card-text{
+    font-size: 1.3em !important;
+  }
+
+  .card-title{
+    font-size: 1.3em;
   }
 
   /* #forbes_logo{
