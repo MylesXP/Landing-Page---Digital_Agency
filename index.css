@@ -788,10 +788,20 @@ html {
   /* Samsung s22 ultra is in this category */
 }
 
+
+/* Mobile M - L Buffer */
 @media only screen and (min-width: 360px) {
   .tes-item{
     margin-left: 5%;
     margin-right: 5%;
+  }
+
+  .card-text{
+    font-size: .86em !important;
+  }
+
+  p .text-muted{
+    font-size: .7em;
   }
 }
 
