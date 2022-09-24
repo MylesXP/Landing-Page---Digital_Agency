@@ -788,6 +788,13 @@ html {
   /* Samsung s22 ultra is in this category */
 }
 
+@media only screen and (min-width: 360px) {
+  .tes-item{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
 /* Mobile L */
 @media only screen and (min-width: 400px) {
   #jumbo_title {
