@@ -1057,6 +1057,11 @@ html {
   }
 }
 
+/* Tablet - Laptop Buffer*/
+/* @media only screen and (min-width: 770px) {
+
+} */
+
 /* Laptop */
 @media only screen and (min-width: 970px) {
   .jumbotron {
@@ -1111,7 +1116,7 @@ html {
   }
 
   #about_section--text p {
-    font-size: .84em !important;
+    font-size: .9em !important;
   }
 
   #about_section--subtitle {
@@ -1122,6 +1127,7 @@ html {
   #about_section--button {
     font-size: .7em !important;
   }
+
 
   .card-title {
     font-size: 1.18em;
@@ -1224,7 +1230,7 @@ html {
   }
 
   #about_section--text p {
-    font-size: .98em !important;
+    font-size: 1.1em !important;
   }
 
   #about_section--subtitle {
