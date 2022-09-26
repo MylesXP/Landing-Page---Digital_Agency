@@ -1308,6 +1308,57 @@ html {
 
   #ali_logo-reg {
     width: 80% !important;
+    height: 65% !important;
+  }
+
+  #jumbo_title{
+    font-size: 3em !important;
+  }
+
+  #phone_image{
+    margin-left: 15%;
+  }
+
+  #jumbo_emailform{
+    width: 22%;
+    height: 75%;
+  }
+
+  #jumbo__blob-2{
+    width: 12% !important;
+  }
+
+  #jumboef_inquiry{
+    height: 28%; 
+  }
+
+  #about_section{
+    max-width: 90%;
+  }
+
+  #about_section--img .img-fluid{
+    max-width: 100% ;
+    width: 100% !important;
+   }
+
+   #about_section--text p{
+    font-size: 2.4em !important;
+  }
+
+  #about_section--text {
+    padding-left: 1.5%;
+  }
+   
+  #about_section--subtitle{
+    font-size: 2.5em !important;
+  }
+
+  #about_section--title h6{
+    font-size: 3em !important;
+  }
+
+  #about_section--button{
+    font-size: 2em !important;
   }
 }
 
