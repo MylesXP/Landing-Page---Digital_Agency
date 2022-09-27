@@ -52,6 +52,10 @@ html {
   /* height: 50% !important; */
 }
 
+#about_section--button p {
+  margin: 0;
+}
+
 #service_section-wrapper {
   margin-top: 17%;
 }
@@ -791,16 +795,16 @@ html {
 
 /* Mobile M - L Buffer */
 @media only screen and (min-width: 360px) {
-  .tes-item{
+  .tes-item {
     margin-left: 5%;
     margin-right: 5%;
   }
 
-  .card-text{
+  .card-text {
     font-size: .86em !important;
   }
 
-  p .text-muted a{
+  p .text-muted a {
     font-size: 1.1em !important;
   }
 }
@@ -1052,7 +1056,7 @@ html {
     font-size: .7em;
   }
 
-  .card-text{
+  .card-text {
     font-size: .7em !important;
   }
 }
@@ -1154,7 +1158,7 @@ html {
     width: 75% !important;
   }
 
-  .tes-item{
+  .tes-item {
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -1265,17 +1269,21 @@ html {
     height: 60% !important;
   }
 
-  .tes-item{
+  .tes-item {
     margin-left: 15%;
     margin-right: 15%;
   }
 
-  .card-text{
+  .card-text {
     font-size: 1.3em !important;
   }
 
-  .card-title{
+  .card-title {
     font-size: 1.3em;
+  }
+
+  #about_section--button p {
+    font-size: .8em !important;
   }
 
   /* #forbes_logo{
@@ -1286,6 +1294,19 @@ html {
 
 /* 4k */
 @media only screen and (min-width: 2560px) {
+
+  .navbar-brand{
+    font-size: 2.8em !important;
+  }
+
+  .nav-link{
+    font-size: 2em;
+  }
+
+  .jumbotron {
+    height: 1200px;
+  }
+
   .img-fluid {
     width: 80% !important;
   }
@@ -1304,61 +1325,118 @@ html {
 
   #fp_logo {
     height: 90% !important;
+    width: 80% !important;
   }
 
   #ali_logo-reg {
     width: 80% !important;
-    height: 65% !important;
+    height: 60% !important;
   }
 
-  #jumbo_title{
-    font-size: 3em !important;
+  #jumbo_title {
+    font-size: 4.5em !important;
+    line-height: 100px;
+
   }
 
-  #phone_image{
-    margin-left: 15%;
+  #phone_image {
+    margin-left: 18%;
+    width: 20%;
+    height: 55%;
   }
 
-  #jumbo_emailform{
-    width: 22%;
-    height: 75%;
+  #jumbo_emailform {
+    width: 28%;
+    height: 78%;
   }
 
-  #jumbo__blob-2{
+  .jumboef--input::placeholder {
+    font-size: 28px;
+  }
+
+  #jumboef_inquiry::placeholder{
+    font-size: 28px;
+    padding-top: 8px;
+  }
+
+  #jumbo__blob-2 {
     width: 12% !important;
   }
 
-  #jumboef_inquiry{
-    height: 28%; 
+  #jumboef-title {
+    font-size: 3em;
+    margin-top: 10px;
+  }
+  
+  input[type="text"] {
+    font-size: 28px;
   }
 
-  #about_section{
+  #lead {
+    font-size: 1.5em;
+  }
+
+  #jumboef_inquiry {
+    height: 28%;
+    font-size: 28px;
+    border-radius: 12px;
+  }
+
+  #jumboef_button {
+    font-size: 2.2em;
+    border-radius: 16px;
+    margin: 3%;
+  }
+
+  #about_section {
     max-width: 90%;
   }
 
-  #about_section--img .img-fluid{
-    max-width: 100% ;
+  #about_section--img .img-fluid {
+    max-width: 100%;
     width: 100% !important;
-   }
+  }
 
-   #about_section--text p{
+  #about_section--text p {
     font-size: 2.4em !important;
   }
 
   #about_section--text {
     padding-left: 1.5%;
   }
-   
-  #about_section--subtitle{
+
+  #about_section--subtitle {
     font-size: 2.5em !important;
   }
 
-  #about_section--title h6{
+  #about_section--title h6 {
     font-size: 3em !important;
   }
 
-  #about_section--button{
+  #about_section--button p {
+    font-size: 1.8em !important;
+    padding: 10px;
+    margin: 0;
+  }
+
+  #service_title-lead{
+    font-size: 2.2em;
+  }
+
+  #service_title{
+    font-size: 3em !important;
+  }
+
+  .card-title{
+    font-size: 2.5em;
+  }
+
+  .card-text{
     font-size: 2em !important;
+  }
+
+  .jumboef--input{
+    border-radius: 12px;
   }
 }
 
