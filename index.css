@@ -98,13 +98,9 @@ html {
 }
 
 
-/* #service-title-lead{
-
+.owl-theme .owl-dots .owl-dot:focus {
+  outline: none;
 }
-
-#service-title{
-  
-} */
 
 .border-left {
   border-left: 2px solid #E5E5E5;
@@ -318,7 +314,7 @@ html {
 
 } */
 
-#testcard-text {
+.testcard-text {
   transform: translateY(-15%);
   font-size: .9em;
   font-style: italic;
@@ -1444,13 +1440,40 @@ html {
   .jumboef--input {
     border-radius: 12px;
   }
-}
 
+  #testimonial_title {
+    font-size: 3em !important;
+    padding-bottom: 4%;
+  }
 
-/* End Media Queries */
+  .quote {
+    width: 25% !important;
+  }
 
-/* FOR TABLET VIEW - Puts the email form above the title for accurate translation from design*/
-/* #jumbo_emailform {
-  z-index: 3;
-  margin-top: -65px;
+  .testimonial-pic {
+    width: 45% !important;
+  }
+
+  .testcard-title {
+    padding-top: 5%;
+    font-size: 2.2em;
+  }
+
+  .testcard-text {
+    padding-top: 1%;
+    font-size: 2em;
+  }
+
+  .owl-theme .owl-dots span {
+    width: 1.2em !important;
+    height: 1.2em !important;
+  }
+
+  .owl-theme .owl-dots .owl-dot:focus {
+    outline: none;
+  }
+
+  /* .owl-theme .owl-dots span:active {}
 } */
+
+} 
