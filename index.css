@@ -1146,7 +1146,7 @@ html {
   }
 
   .border-left {
-    left: -5.4%;
+    left: -5% !important;
   }
 
   #service_title-lead::before,
@@ -1256,7 +1256,7 @@ html {
   }
 
   .border-left {
-    left: -4.5%;
+    left: -7% !important;
   }
 
   #service_title-lead::before,
@@ -1295,11 +1295,11 @@ html {
 /* 4k */
 @media only screen and (min-width: 2560px) {
 
-  .navbar-brand{
+  .navbar-brand {
     font-size: 2.8em !important;
   }
 
-  .nav-link{
+  .nav-link {
     font-size: 2em;
   }
 
@@ -1354,7 +1354,7 @@ html {
     font-size: 28px;
   }
 
-  #jumboef_inquiry::placeholder{
+  #jumboef_inquiry::placeholder {
     font-size: 28px;
     padding-top: 8px;
   }
@@ -1367,7 +1367,7 @@ html {
     font-size: 3em;
     margin-top: 10px;
   }
-  
+
   input[type="text"] {
     font-size: 28px;
   }
@@ -1419,23 +1419,29 @@ html {
     margin: 0;
   }
 
-  #service_title-lead{
+  #service_title-lead {
     font-size: 2.2em;
   }
 
-  #service_title{
+  #service_title {
     font-size: 3em !important;
   }
 
-  .card-title{
+  .border-left {
+    left: -4% !important;
+  }
+
+  .card-title {
     font-size: 2.5em;
   }
 
-  .card-text{
+  .card-text {
     font-size: 2em !important;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
-  .jumboef--input{
+  .jumboef--input {
     border-radius: 12px;
   }
 }
