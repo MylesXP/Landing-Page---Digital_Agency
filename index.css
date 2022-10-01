@@ -935,6 +935,15 @@ html {
     padding-bottom: 5%;
   }
 
+  #social {
+    text-align: center;
+  }
+
+  .social-icons {
+    width: 13%;
+    margin-left: 3px;
+  }
+
   /* #footer-contact--soctitle{
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif !important;
@@ -1300,6 +1309,10 @@ html {
   .social-icons {
     width: 13%;
     margin-left: 3px;
+  }
+
+  #social {
+    text-align: left;
   }
 }
 
