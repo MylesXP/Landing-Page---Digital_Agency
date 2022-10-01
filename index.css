@@ -874,6 +874,51 @@ html {
     font-size: 1.4em;
     padding-bottom: 1.5%;
     text-align: center;
+    padding-top: 3%;
+  }
+
+  #footer-contact--a1 {
+    font-size: 1em;
+    text-align: center;
+  }
+
+  #footer-contact--a2 {
+    font-size: 1em;
+    text-align: center;
+    padding-top: .7%;
+  }
+
+  #footer-contact--email {
+    font-size: 1em;
+    text-align: center;
+    padding-top: .7%;
+    padding-bottom: 5%;
+  }
+
+  #footer-ql--title {
+    text-align: center;
+    padding-bottom: 1%;
+    font-size: 1.2em;
+  }
+
+  #footer-about--title {
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 1%;
+  }
+
+  #footer-nl--title {
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 1%;
+  }
+
+  /* #footer-contact--title {
+    font-size: 1.4em;
+    padding-bottom: 1.5%;
+    text-align: center;
   }
 
   #footer-contact--a1 {
@@ -894,8 +939,6 @@ html {
   #footer-ql--title {
     font-size: 1em;
     text-align: center;
-    
-    /* padding-top: 5%; */
   }
 
   #footer-about--title {
@@ -906,7 +949,7 @@ html {
   #footer-nl--title {
     font-size: 1em;
     text-align: center;
-  }
+  } */
 
   /* Samsung s22 ultra is in this category */
 }
