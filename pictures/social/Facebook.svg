@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Facebook</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-245.000000, -4370.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Footer" transform="translate(0.000000, 4003.000000)">
+                <g id="Left-Side-Main-Section" transform="translate(86.000000, 60.000000)">
+                    <g id="Footer-Social-Subsection" transform="translate(0.000000, 307.000000)">
+                        <g id="Facebook" transform="translate(159.000000, 0.000000)">
+                            <path d="M22,0 C9.85,0 0,9.90062821 0,22.1130782 C0,33.1997716 8.125,42.3535808 18.712,43.9527584 L18.712,27.9740491 L13.269,27.9740491 L13.269,22.161325 L18.712,22.161325 L18.712,18.2935465 C18.712,11.8898001 21.816,9.07842376 27.111,9.07842376 C29.647,9.07842376 30.988,9.26739006 31.623,9.3538321 L31.623,14.4277784 L28.011,14.4277784 C25.763,14.4277784 24.978,16.5697316 24.978,18.9840777 L24.978,22.161325 L31.566,22.161325 L30.672,27.9740491 L24.978,27.9740491 L24.978,44 C35.716,42.5355111 44,33.3073215 44,22.1130782 C44,9.90062821 34.15,0 22,0 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

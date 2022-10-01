@@ -122,17 +122,17 @@ html {
   margin-bottom: 0;
 }
 
-#footer-contact--email a{
+#footer-contact--email a {
   font-family: Arial, Helvetica, sans-serif !important;
   margin-bottom: 0;
   color: white;
 }
 
-#footer-contact--email a:focus{
+#footer-contact--email a:focus {
   color: white;
 }
 
-.footer-sublink{
+.footer-sublink {
   text-align: center;
   font-size: .8em;
 }
@@ -362,6 +362,12 @@ html {
   margin-right: 10%;
   font-family: Arial, Helvetica, sans-serif !important;
 }
+
+/* #footer-contact--soctitle{
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-weight: bold;
+} */
 
 
 
@@ -599,12 +605,15 @@ html {
   #fp_logo {
     width: 70%;
   }
+  #footer-contact {
+    padding-bottom: 8%;
+  }
 
   #footer-contact--title {
     font-size: 1.4em;
     padding-bottom: 1.5%;
     text-align: center;
-    padding-top: 3%;
+    padding-top: 6%;
   }
 
   #footer-contact--a1 {
@@ -622,7 +631,6 @@ html {
     font-size: 1em;
     text-align: center;
     padding-top: .7%;
-    padding-bottom: 5%;
   }
 
   #footer-ql--title {
@@ -643,6 +651,15 @@ html {
     text-align: center;
     padding-top: 7%;
     padding-bottom: 1%;
+  }
+
+  #social {
+    text-align: center;
+  }
+
+  .social-icons {
+    width: 13%;
+    margin-left: 3px;
   }
 }
 
@@ -892,7 +909,6 @@ html {
     font-size: 1em;
     text-align: center;
     padding-top: .7%;
-    padding-bottom: 5%;
   }
 
   #footer-ql--title {
@@ -914,6 +930,17 @@ html {
     padding-top: 7%;
     padding-bottom: 1%;
   }
+
+  #footer-contact {
+    padding-bottom: 5%;
+  }
+
+  /* #footer-contact--soctitle{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-weight: bold;
+    display: none;
+  } */
 
   /* #footer-contact--title {
     font-size: 1.4em;
@@ -1220,6 +1247,59 @@ html {
 
   .card-text {
     font-size: .7em !important;
+  }
+
+  #footer-contact--title {
+    text-align: left;
+  }
+
+  #footer-contact--a1 {
+    text-align: left
+  }
+
+  #footer-contact--a2 {
+    text-align: left
+  }
+
+  #footer-contact--email {
+    text-align: left;
+    padding-top: 7%;
+  }
+
+  #footer-ql--title {
+    text-align: left;
+    padding-top: 10%;
+    font-size: 1em;
+  }
+
+  #footer-about--title {
+    text-align: left;
+    padding-top: 10%;
+    font-size: 1em;
+  }
+
+  .footer-sublink {
+    text-align: left;
+    font-size: .6em;
+  }
+
+  #footer-nl--title {
+    padding-top: 10%;
+    font-size: .8em;
+  }
+
+  #footer {
+    height: 12em;
+  }
+
+  #footer-contact {
+    padding-right: 10%;
+    padding-left: 2%;
+  }
+
+  .social-icons {
+    width: 13%;
+    margin-left: 3px;
   }
 }
 
