@@ -122,9 +122,19 @@ html {
   margin-bottom: 0;
 }
 
-#footer-contact--email {
+#footer-contact--email a{
   font-family: Arial, Helvetica, sans-serif !important;
   margin-bottom: 0;
+  color: white;
+}
+
+#footer-contact--email a:focus{
+  color: white;
+}
+
+.footer-sublink{
+  text-align: center;
+  font-size: .6em;
 }
 
 
@@ -594,6 +604,7 @@ html {
     font-size: 1.4em;
     padding-bottom: 1.5%;
     text-align: center;
+    padding-top: 3%;
   }
 
   #footer-contact--a1 {
@@ -604,23 +615,27 @@ html {
   #footer-contact--a2 {
     font-size: 1em;
     text-align: center;
+    padding-top: .7%;
   }
 
   #footer-contact--email {
     font-size: 1em;
     text-align: center;
+    padding-top: .7%;
+    padding-bottom: 5%;
   }
 
-  #footer-ql--title{
-    font-size: 1em;
-    text-align: center;
-    padding-top: 5%;
-  }
-  #footer-about--title{
+  #footer-ql--title {
     font-size: 1em;
     text-align: center;
   }
-  #footer-nl--title{
+
+  #footer-about--title {
+    font-size: 1em;
+    text-align: center;
+  }
+
+  #footer-nl--title {
     font-size: 1em;
     text-align: center;
   }
@@ -871,16 +886,18 @@ html {
     text-align: center;
   }
 
-  #footer-ql--title{
+  #footer-ql--title {
     font-size: 1em;
     text-align: center;
-    padding-top: 5%;
+    /* padding-top: 5%; */
   }
-  #footer-about--title{
+
+  #footer-about--title {
     font-size: 1em;
     text-align: center;
   }
-  #footer-nl--title{
+
+  #footer-nl--title {
     font-size: 1em;
     text-align: center;
   }
