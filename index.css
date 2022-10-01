@@ -134,7 +134,7 @@ html {
 
 .footer-sublink{
   text-align: center;
-  font-size: .6em;
+  font-size: .8em;
 }
 
 
@@ -626,18 +626,23 @@ html {
   }
 
   #footer-ql--title {
-    font-size: 1em;
     text-align: center;
+    padding-bottom: 1%;
+    font-size: 1.2em;
   }
 
   #footer-about--title {
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: center;
+    padding-top: 7%;
+    padding-bottom: 1%;
   }
 
   #footer-nl--title {
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: center;
+    padding-top: 7%;
+    padding-bottom: 1%;
   }
 }
 
@@ -889,6 +894,7 @@ html {
   #footer-ql--title {
     font-size: 1em;
     text-align: center;
+    
     /* padding-top: 5%; */
   }
 
