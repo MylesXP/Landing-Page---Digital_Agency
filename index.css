@@ -77,6 +77,9 @@ html {
   /* background-color: #0099FF; */
   /* Change below to change the length of the lines */
   flex: .18;
+  -webkit-flex: .18;
+  -ms-flex: .18;
+  -moz-flex: .18;
   /* Change below to change the Fill of the line */
   border-width: 1px solid;
   border-style: solid;
@@ -292,7 +295,7 @@ html {
   color: white;
 }
 
-#nl-submit:hover{
+#nl-submit:hover {
   background-color: #0383d9;
   color: gray;
 }
@@ -604,6 +607,9 @@ html {
   #service_title-lead::before,
   #service_title-lead::after {
     flex: .2;
+    -webkit-flex: .2;
+    -ms-flex: .2;
+    -moz-flex: .2;
   }
 
   .card-body {
@@ -689,7 +695,7 @@ html {
     text-align: center;
   }
 
-  .input-group{
+  .input-group {
     justify-content: center;
   }
 
@@ -990,7 +996,7 @@ html {
     text-align: center;
   }
 
-  .input-group{
+  .input-group {
     justify-content: center;
   }
 
@@ -1097,6 +1103,9 @@ html {
   #service_title-lead::before,
   #service_title-lead::after {
     flex: .15;
+    -webkit-flex: .15;
+    -ms-flex: .15;
+    -moz-flex: .15;
   }
 
   .card-body {
@@ -1286,6 +1295,9 @@ html {
   #service_title-lead::before,
   #service_title-lead::after {
     flex: .1;
+    -webkit-flex: .1;
+    -ms-flex: .1;
+    -moz-flex: .1;
   }
 
   .card-body {
@@ -1391,24 +1403,22 @@ html {
     min-width: 60%;
   }
 
-  #nl-submit{
+  #nl-submit {
     width: 20px;
     padding-right: 30px;
   }
 
-  .input-group{
+  .input-group {
     justify-content: unset;
   }
 
   input[type="text"] {
     font-size: 10px;
-}
+  }
 }
 
 /* Tablet - Laptop Buffer*/
-/* @media only screen and (min-width: 770px) {
-
-} */
+@media only screen and (min-width: 770px) {}
 
 /* Laptop */
 @media only screen and (min-width: 970px) {
@@ -1504,6 +1514,9 @@ html {
   #service_title-lead::before,
   #service_title-lead::after {
     flex: .08;
+    -webkit-flex: .08;
+    -ms-flex: .08;
+    -moz-flex: .08;
   }
 
   .card-img-top {
@@ -1515,7 +1528,7 @@ html {
     margin-right: 10%;
   }
 
-  .input-group{
+  .input-group {
     justify-content: unset;
   }
 
@@ -1523,12 +1536,12 @@ html {
     min-width: 60%;
   }
 
-  #nl-submit{
+  #nl-submit {
     width: 20px;
     padding-right: 30px;
   }
 
-  .input-group{
+  .input-group {
     justify-content: unset;
   }
 }
@@ -1631,6 +1644,9 @@ html {
   #service_title-lead::before,
   #service_title-lead::after {
     flex: .05;
+    -webkit-flex: .05;
+    -ms-flex: .05;
+    -moz-flex: .05;
   }
 
   #busins_logo {
@@ -1655,7 +1671,7 @@ html {
     font-size: .8em !important;
   }
 
-  #footer-nl--title{
+  #footer-nl--title {
     font-size: 1em;
   }
 
