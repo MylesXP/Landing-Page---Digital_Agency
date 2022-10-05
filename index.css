@@ -288,6 +288,13 @@ html {
 #nl-submit {
   outline: 0;
   box-shadow: none;
+  background-color: #0099FF;
+  color: white;
+}
+
+#nl-submit:hover{
+  background-color: #0383d9;
+  color: gray;
 }
 
 
@@ -1381,11 +1388,12 @@ html {
   } */
 
   #nl-emailarea {
-    min-width: 70%;
+    min-width: 60%;
   }
 
   #nl-submit{
     width: 20px;
+    padding-right: 30px;
   }
 
   .input-group{
@@ -1505,6 +1513,19 @@ html {
   .tes-item {
     margin-left: 10%;
     margin-right: 10%;
+  }
+
+  .input-group{
+    justify-content: unset;
+  }
+
+  #nl-emailarea {
+    min-width: 60%;
+  }
+
+  #nl-submit{
+    width: 20px;
+    padding-right: 30px;
   }
 
   .input-group{
@@ -1634,10 +1655,13 @@ html {
     font-size: .8em !important;
   }
 
-  /* #forbes_logo{
-    width: 80%;
-    height: 50% !important;
-  } */
+  #footer-nl--title{
+    font-size: 1em;
+  }
+
+  #nl-emailarea {
+    font-size: 15px;
+  }
 }
 
 /* 4k */
