@@ -280,6 +280,16 @@ html {
   /* display: inline-block; */
 }
 
+#nl-emailarea:focus {
+  box-shadow: none;
+  outline: solid rgb(169, 169, 169);
+}
+
+#nl-submit {
+  outline: 0;
+  box-shadow: none;
+}
+
 
 
 /* Selects SVG inside svg continer allowing for semi responsive svgs - WORKS */
@@ -672,14 +682,18 @@ html {
     text-align: center;
   }
 
-  #nl-emailarea{
-    height: 40px;
+  .input-group{
+    justify-content: center;
   }
 
-  #nl-submit{
+  #nl-emailarea {
+    max-width: 60%;
+  }
+
+  #nl-submit {
     padding-top: 0;
     padding-bottom: 0;
-    height: 40px ;
+    height: 100%;
   }
 }
 
@@ -969,14 +983,18 @@ html {
     text-align: center;
   }
 
-  #nl-emailarea{
-    height: 40px;
+  .input-group{
+    justify-content: center;
   }
 
-  #nl-submit{
+  #nl-emailarea {
+    max-width: 40%;
+  }
+
+  #nl-submit {
     padding-top: 0;
     padding-bottom: 0;
-    height: 40px ;
+    height: 100%;
   }
 }
 
@@ -1086,6 +1104,10 @@ html {
 
   #service_title {
     font-size: 1.4em !important;
+  }
+
+  #nl-emailarea {
+    max-width: 40%;
   }
 
   /* .card-text{
@@ -1335,12 +1357,13 @@ html {
   }
 
   #footer {
-    height: 12em;
+    height: 11em;
   }
 
   #footer-contact {
     padding-right: 10%;
     padding-left: 2%;
+    padding-bottom: 0;
   }
 
   .social-icons {
@@ -1352,10 +1375,26 @@ html {
     text-align: left;
   }
 
-  #footer-nl {
+  /* #footer-nl {
     position: relative;
     text-align: left;
+  } */
+
+  #nl-emailarea {
+    min-width: 70%;
   }
+
+  #nl-submit{
+    width: 20px;
+  }
+
+  .input-group{
+    justify-content: unset;
+  }
+
+  input[type="text"] {
+    font-size: 10px;
+}
 }
 
 /* Tablet - Laptop Buffer*/
@@ -1466,6 +1505,10 @@ html {
   .tes-item {
     margin-left: 10%;
     margin-right: 10%;
+  }
+
+  .input-group{
+    justify-content: unset;
   }
 }
 
