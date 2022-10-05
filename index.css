@@ -83,13 +83,13 @@ html {
   /* Change below to change the Fill of the line */
   border-width: 1px solid;
   border-style: solid;
-  border-image: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(138, 208, 255, 1) 46%, rgba(0, 153, 255, 1) 100%) 1;
-  /* border-image-source: linear-gradient(to left, #743ad5, #d53a9d); */
+  border-image: linear-gradient(270deg, transparent 0%, rgba(138, 208, 255, 1) 46%, rgba(0, 153, 255, 1) 100%) 1;
+  /* border-image-source: linear-gradient(to left, #743ad5, #d53a9d);  rgba(255, 255, 255, 1)*/
 }
 
 #service_title-lead::before {
   /* background: rgb(255,255,255); */
-  border-image: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(138, 208, 255, 1) 46%, rgba(0, 153, 255, 1) 100%) 1;
+  border-image: linear-gradient(90deg, transparent 0%, rgba(138, 208, 255, 1) 46%, rgba(0, 153, 255, 1) 100%) 1;
 }
 
 #service_title-lead:not(:empty)::before {
@@ -293,10 +293,12 @@ html {
   box-shadow: none;
   background-color: #0099FF;
   color: white;
+  border-color: #0099FF;
 }
 
 #nl-submit:hover {
   background-color: #0383d9;
+  border-color: #0383d9;
   color: gray;
 }
 
@@ -381,6 +383,10 @@ html {
   margin-left: 10%;
   margin-right: 10%;
   font-family: Arial, Helvetica, sans-serif !important;
+}
+
+#nl-submit{
+  cursor: pointer;
 }
 
 /* #nl-emailarea{
@@ -1680,6 +1686,39 @@ html {
   }
 }
 
+/* Laptop L - 4k Buffer */
+@media only screen and (min-width: 1700px){
+
+  #jumbo__blob-2 {
+    width: 15% !important;
+  }
+
+  .social-icons{
+    width: 1.5em;
+  }
+
+  #footer{
+    height: 11em;
+  }
+
+  #footer-contact--email{
+    padding-top: 4%;
+  }
+
+  #footer-ql--title{
+    padding-top: 6%;
+  }
+
+  #footer-about--title{
+    padding-top: 6%;
+  }
+
+  #footer-nl--title {
+    padding-top: 6%;
+  }
+
+}
+
 /* 4k */
 @media only screen and (min-width: 2560px) {
 
@@ -1864,6 +1903,73 @@ html {
   .owl-theme .owl-dots .owl-dot:focus {
     outline: none;
   }
+
+  #footer{
+    height: 16em;
+  }
+
+  .footer-sublink{
+    font-size: 1em;
+  }
+
+  #footer-contact{
+    padding-right: 5%;
+  }
+
+  #footer-contact--title{
+    font-size: 2em;
+  }
+
+  #footer-contact--a1{
+    font-size: 1.3em;
+  }
+
+  #footer-contact--a2{
+    font-size: 1.3em;
+  }
+
+  #footer-contact--email{
+    padding-top: 4%;
+    font-size: 1.2em;
+  }
+
+  #social{
+    padding-top: 3%;
+  }
+
+  .social-icons{
+    width: 2.3em;
+    padding-left: 6px;
+  }
+
+  #footer-ql--title{
+    padding-top: 7%;
+    font-size: 1.5em;
+  }
+
+  #footer-about--title{
+    padding-top: 7%;
+    font-size: 1.5em;
+  }
+
+  #footer-nl--title{
+    padding-top: 7%;
+    font-size: 1.5em;
+  }
+
+  #nl-emailarea {
+    min-width: 40%;
+  }
+
+  #nl-emailarea ,input[type="text"] {
+    font-size: 25px;
+  }
+
+  #nl-submit{
+    width: 60px;
+    padding-right: 15px;
+  }
+
 
   /* .owl-theme .owl-dots span:active {}
 } */
