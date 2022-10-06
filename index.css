@@ -1078,6 +1078,10 @@ html {
   p .text-muted a {
     font-size: 1.1em !important;
   }
+
+  #nl-submit {
+    padding-right: 30px;
+  }
 }
 
 /* Mobile L */
