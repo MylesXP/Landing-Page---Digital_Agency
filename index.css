@@ -1426,7 +1426,7 @@ html {
 /* Tablet - Laptop Buffer*/
 @media only screen and (min-width: 770px) {
   #nl-submit {
-    padding-right: 0;
+    padding-right: 15px;
   }
 }
 
