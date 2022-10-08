@@ -1034,7 +1034,7 @@ html {
   }
 
   #footer-crtext {
-    font-size: .8em;
+    font-size: 1em;
     padding-bottom: 2%;
   }
 }
@@ -2007,9 +2007,4 @@ html {
     width: 60px;
     padding-right: 15px;
   }
-
-
-  /* .owl-theme .owl-dots span:active {}
-} */
-
 }
