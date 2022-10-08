@@ -385,8 +385,12 @@ html {
   font-family: Arial, Helvetica, sans-serif !important;
 }
 
-#nl-submit{
+#nl-submit {
   cursor: pointer;
+}
+
+#footer-copyright {
+  padding-top: 1%;
 }
 
 /* #nl-emailarea{
@@ -714,6 +718,15 @@ html {
     padding-bottom: 0;
     height: 100%;
   }
+
+  #footer-hr{
+    margin-bottom: 3%;
+  }
+
+  #footer-crtext {
+    font-size: .8em;
+    padding-bottom: 2%;
+  }
 }
 
 
@@ -1014,6 +1027,15 @@ html {
     padding-top: 0;
     padding-bottom: 0;
     height: 100%;
+  }
+
+  #footer-hr{
+    margin-bottom: 3%;
+  }
+
+  #footer-crtext {
+    font-size: .8em;
+    padding-bottom: 2%;
   }
 }
 
@@ -1382,7 +1404,7 @@ html {
   }
 
   #footer {
-    height: 11em;
+    height: 12.5em;
   }
 
   #footer-contact {
@@ -1421,14 +1443,19 @@ html {
   input[type="text"] {
     font-size: 10px;
   }
+
+  #footer-hr{
+    margin-bottom: 1%;
+  }
+
+  #footer-crtext{
+    padding-bottom: 0;
+  }
 }
 
 /* Tablet - Laptop Buffer*/
-@media only screen and (min-width: 770px) {
-  #nl-submit {
-    padding-right: 15px;
-  }
-}
+/* @media only screen and (min-width: 770px) {
+} */
 
 /* Laptop */
 @media only screen and (min-width: 970px) {
@@ -1437,12 +1464,18 @@ html {
   }
 
   #footer {
-    height: 11em;
+    height: 12.5em;
   }
 
   #footer-contact {
     padding-bottom: 0%;
   }
+  #footer-hr {
+    margin-bottom: 1%;
+  }
+  /* #footer-crtext{
+    padding-top: .5%;
+  } */
 
   .navbar-brand {
     font-size: 28px !important;
@@ -1691,29 +1724,29 @@ html {
 }
 
 /* Laptop L - 4k Buffer */
-@media only screen and (min-width: 1700px){
+@media only screen and (min-width: 1700px) {
 
   #jumbo__blob-2 {
     width: 15% !important;
   }
 
-  .social-icons{
+  .social-icons {
     width: 1.5em;
   }
 
-  #footer{
+  #footer {
     height: 11em;
   }
 
-  #footer-contact--email{
+  #footer-contact--email {
     padding-top: 4%;
   }
 
-  #footer-ql--title{
+  #footer-ql--title {
     padding-top: 6%;
   }
 
-  #footer-about--title{
+  #footer-about--title {
     padding-top: 6%;
   }
 
@@ -1908,55 +1941,55 @@ html {
     outline: none;
   }
 
-  #footer{
+  #footer {
     height: 16em;
   }
 
-  .footer-sublink{
+  .footer-sublink {
     font-size: 1em;
   }
 
-  #footer-contact{
+  #footer-contact {
     padding-right: 5%;
   }
 
-  #footer-contact--title{
+  #footer-contact--title {
     font-size: 2em;
   }
 
-  #footer-contact--a1{
+  #footer-contact--a1 {
     font-size: 1.3em;
   }
 
-  #footer-contact--a2{
+  #footer-contact--a2 {
     font-size: 1.3em;
   }
 
-  #footer-contact--email{
+  #footer-contact--email {
     padding-top: 4%;
     font-size: 1.2em;
   }
 
-  #social{
+  #social {
     padding-top: 3%;
   }
 
-  .social-icons{
+  .social-icons {
     width: 2.3em;
     padding-left: 6px;
   }
 
-  #footer-ql--title{
+  #footer-ql--title {
     padding-top: 7%;
     font-size: 1.5em;
   }
 
-  #footer-about--title{
+  #footer-about--title {
     padding-top: 7%;
     font-size: 1.5em;
   }
 
-  #footer-nl--title{
+  #footer-nl--title {
     padding-top: 7%;
     font-size: 1.5em;
   }
@@ -1965,11 +1998,12 @@ html {
     min-width: 40%;
   }
 
-  #nl-emailarea ,input[type="text"] {
+  #nl-emailarea,
+  input[type="text"] {
     font-size: 25px;
   }
 
-  #nl-submit{
+  #nl-submit {
     width: 60px;
     padding-right: 15px;
   }
