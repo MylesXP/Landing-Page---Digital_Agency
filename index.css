@@ -299,7 +299,6 @@ html {
 #nl-submit:hover {
   background-color: #0383d9;
   border-color: #0383d9;
-  color: gray;
 }
 
 
@@ -1721,6 +1720,10 @@ html {
   #nl-emailarea {
     font-size: 15px;
   }
+
+  #footer {
+    height: 14em;
+  }
 }
 
 /* Laptop L - 4k Buffer */
@@ -1752,6 +1755,13 @@ html {
 
   #footer-nl--title {
     padding-top: 6%;
+  }
+
+  #footer-contact {
+    padding-bottom: 0%;
+  }
+  #footer-hr {
+    margin-bottom: 1%;
   }
 
 }
@@ -1942,7 +1952,19 @@ html {
   }
 
   #footer {
-    height: 16em;
+    height: 20em;
+  }
+
+  #footer-crtext {
+    font-size: 1.5em;
+  }
+
+  #footer-contact {
+    padding-bottom: 0%;
+  }
+
+  #footer-hr{
+    margin-bottom: 1%;
   }
 
   .footer-sublink {
