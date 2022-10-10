@@ -1332,9 +1332,9 @@ html {
     text-align: left;
   }
 
-  #footer {
+  /* #footer {
     height: 12.5em;
-  }
+  } */
 
   #footer-contact {
     padding-right: 10%;
@@ -1392,9 +1392,9 @@ html {
     height: 850px;
   }
 
-  #footer {
+  /* #footer {
     height: 12.5em;
-  }
+  } */
 
   #footer-contact {
     padding-bottom: 0%;
@@ -1645,9 +1645,9 @@ html {
     font-size: 15px;
   }
 
-  #footer {
-    height: 14em;
-  }
+  /* #footer {
+    height: 15em;
+  } */
 }
 
 /* Laptop L - 4k Buffer */
@@ -1661,9 +1661,9 @@ html {
     width: 1.5em;
   }
 
-  #footer {
+  /* #footer {
     height: 11em;
-  }
+  } */
 
   #footer-contact--email {
     padding-top: 4%;
@@ -1689,9 +1689,9 @@ html {
     margin-bottom: .5%;
   }
 
-  #footer {
-    height: 14em;
-  }
+  /* #footer {
+    height: 13em;
+  } */
 
   #footer-crtext {
     font-size: .8em;
@@ -1884,9 +1884,9 @@ html {
     outline: none;
   }
 
-  #footer {
+  /* #footer {
     height: 20em;
-  }
+  } */
 
   #footer-crtext {
     font-size: 1.5em;
