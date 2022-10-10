@@ -403,11 +403,9 @@ html {
     background-color: white;
     color: #00C9FF;
     border-radius: 0;
-    /* background-color: rgba(0, 0, 0, .7); */
   }
 
   .nav-link:hover {
-    /* background-color: rgba(0, 0, 0, .7); */
     text-decoration: underline !important;
     text-decoration-color: #00C9FF !important;
     border-radius: 0;
@@ -702,7 +700,7 @@ html {
   }
 
   #footer-hr {
-    margin-bottom: 3%;
+    margin-bottom: 2%;
   }
 
   #footer-crtext {
@@ -798,7 +796,6 @@ html {
     font-size: 14px;
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
-    /* padding-left: 5px; */
   }
 
   .jumboef--input:focus::placeholder {
@@ -1010,7 +1007,7 @@ html {
   }
 
   #footer-hr {
-    margin-bottom: 3%;
+    margin-bottom: 1%;
   }
 
   #footer-crtext {
@@ -1153,7 +1150,6 @@ html {
     font-size: 35px !important;
     z-index: 1;
     margin-top: 85px;
-    /* font-size: 1.5em !important; */
     line-height: 55px;
   }
 
@@ -1332,10 +1328,6 @@ html {
     text-align: left;
   }
 
-  /* #footer {
-    height: 12.5em;
-  } */
-
   #footer-contact {
     padding-right: 10%;
     padding-left: 2%;
@@ -1350,11 +1342,6 @@ html {
   #social {
     text-align: left;
   }
-
-  /* #footer-nl {
-    position: relative;
-    text-align: left;
-  } */
 
   #nl-emailarea {
     min-width: 60%;
@@ -1374,11 +1361,13 @@ html {
   }
 
   #footer-hr {
-    margin-bottom: 1%;
+    margin-bottom: 0;
   }
 
   #footer-crtext {
-    padding-bottom: 0;
+    padding-bottom: .5%;
+    padding-top: .5%;
+    font-size: .8em;
   }
 }
 
@@ -1392,16 +1381,12 @@ html {
     height: 850px;
   }
 
-  /* #footer {
-    height: 12.5em;
-  } */
-
   #footer-contact {
     padding-bottom: 0%;
   }
 
   #footer-hr {
-    margin-bottom: 1%;
+    margin-bottom: 0;
   }
 
   .navbar-brand {
@@ -1436,7 +1421,6 @@ html {
   #jumbo_emailform {
     width: 350px;
     height: 470px;
-    /* left: 58%; */
     left: 62%;
     top: 19%;
   }
@@ -1686,12 +1670,8 @@ html {
   }
 
   #footer-hr {
-    margin-bottom: .5%;
+    margin-bottom: 0;
   }
-
-  /* #footer {
-    height: 13em;
-  } */
 
   #footer-crtext {
     font-size: .8em;
@@ -1897,7 +1877,7 @@ html {
   }
 
   #footer-hr {
-    margin-bottom: 1%;
+    margin-bottom: 0;
   }
 
   .footer-sublink {
